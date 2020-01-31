@@ -2,6 +2,10 @@ package de.datexis.cdv.train;
 
 import de.datexis.annotator.Annotator;
 import de.datexis.annotator.AnnotatorFactory;
+import de.datexis.cdv.CDVAnnotator;
+import de.datexis.cdv.index.AspectIndex;
+import de.datexis.cdv.index.EntityIndex;
+import de.datexis.cdv.loss.LossHuber;
 import de.datexis.common.*;
 import de.datexis.encoder.Encoder;
 import de.datexis.encoder.EncoderAnnotator;
@@ -10,10 +14,6 @@ import de.datexis.encoder.impl.BagOfWordsEncoder;
 import de.datexis.encoder.impl.FastTextEncoder;
 import de.datexis.encoder.impl.StructureEncoder;
 import de.datexis.encoder.impl.Word2VecEncoder;
-import de.datexis.heatmap.HeatmapAnnotator;
-import de.datexis.heatmap.index.AspectIndex;
-import de.datexis.heatmap.index.EntityIndex;
-import de.datexis.heatmap.loss.LossHuber;
 import de.datexis.model.Annotation;
 import de.datexis.model.Dataset;
 import de.datexis.model.Document;
@@ -128,9 +128,9 @@ public class TrainCDVAnnotator {
     if(params.entityModel) loadEntityEmbedding(params, train);
     
     // --- build model ---------------------------------------------------------
-    HeatmapAnnotator cdv;
+    CDVAnnotator cdv;
     if(params.entityModel && params.aspectModel) {
-      cdv = new HeatmapAnnotator.Builder()
+      cdv = new CDVAnnotator.Builder()
         .withId("CDV-EA")
         .withClassBalancing(params.balancing)
         .withInputEncoders(params.modelName, sentenceEmb, positionalEmb)
@@ -143,7 +143,7 @@ public class TrainCDVAnnotator {
         .enableTrainingUI(params.trainingUI)
         .build();
     } else if(params.entityModel) {
-      cdv = new HeatmapAnnotator.Builder()
+      cdv = new CDVAnnotator.Builder()
         .withId("CDV-E")
         .withClassBalancing(params.balancing)
         .withInputEncoders(params.modelName, sentenceEmb, positionalEmb)
@@ -156,7 +156,7 @@ public class TrainCDVAnnotator {
         .enableTrainingUI(params.trainingUI)
         .build();
     } else if(params.aspectModel) {
-      cdv = new HeatmapAnnotator.Builder()
+      cdv = new CDVAnnotator.Builder()
         .withId("CDV-A")
         .withClassBalancing(params.balancing)
         .withInputEncoders(params.modelName, sentenceEmb, positionalEmb)

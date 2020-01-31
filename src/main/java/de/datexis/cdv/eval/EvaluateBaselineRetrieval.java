@@ -1,8 +1,8 @@
 package de.datexis.cdv.eval;
 
+import de.datexis.cdv.index.PassageIndex;
 import de.datexis.common.ObjectSerializer;
 import de.datexis.common.Resource;
-import de.datexis.heatmap.index.PassageIndex;
 import de.datexis.model.Dataset;
 import de.datexis.retrieval.eval.RetrievalEvaluation;
 import org.apache.lucene.search.similarities.BM25Similarity;

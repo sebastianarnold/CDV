@@ -1,17 +1,17 @@
 package de.datexis.cdv.train;
 
 import de.datexis.annotator.Annotator;
+import de.datexis.cdv.encoder.AspectEncoder;
+import de.datexis.cdv.encoder.EntityEncoder;
+import de.datexis.cdv.index.AspectIndex;
+import de.datexis.cdv.index.EntityIndex;
+import de.datexis.cdv.index.QueryIndex;
 import de.datexis.common.CommandLineParser;
 import de.datexis.common.Configuration;
 import de.datexis.common.Resource;
 import de.datexis.common.WordHelpers;
 import de.datexis.encoder.impl.BloomEncoder;
 import de.datexis.encoder.impl.FastTextEncoder;
-import de.datexis.heatmap.encoder.AspectEncoder;
-import de.datexis.heatmap.encoder.EntityEncoder;
-import de.datexis.heatmap.index.AspectIndex;
-import de.datexis.heatmap.index.EntityIndex;
-import de.datexis.heatmap.index.QueryIndex;
 import de.datexis.retrieval.encoder.LSTMSentenceAnnotator;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Options;

@@ -1,16 +1,16 @@
 package de.datexis.cdv.eval;
 
 import de.datexis.annotator.AnnotatorFactory;
+import de.datexis.cdv.CDVAnnotator;
+import de.datexis.cdv.index.AspectIndex;
+import de.datexis.cdv.index.AspectIndexBuilder;
+import de.datexis.cdv.index.EntityIndex;
+import de.datexis.cdv.index.PassageIndex;
+import de.datexis.cdv.reader.MatchZooReader;
+import de.datexis.cdv.retrieval.QueryRunner;
+import de.datexis.common.CommandLineParser;
 import de.datexis.common.ObjectSerializer;
 import de.datexis.common.Resource;
-import de.datexis.heatmap.HeatmapAnnotator;
-import de.datexis.heatmap.eval.CDVErrorAnalysis;
-import de.datexis.heatmap.index.AspectIndex;
-import de.datexis.heatmap.index.AspectIndexBuilder;
-import de.datexis.heatmap.index.EntityIndex;
-import de.datexis.heatmap.index.PassageIndex;
-import de.datexis.heatmap.reader.MatchZooReader;
-import de.datexis.heatmap.retrieval.QueryRunner;
 import de.datexis.model.Dataset;
 import de.datexis.retrieval.eval.RetrievalEvaluation;
 import org.slf4j.Logger;
@@ -55,8 +55,8 @@ public class EvaluateCDVRetrieval {
     Dataset corpus = ObjectSerializer.readFromJSON(datasetPath, Dataset.class);
     
     // --- load model --------------------------------------------------------------------------------------------------
-    HeatmapAnnotator entityAnnotator = (HeatmapAnnotator) AnnotatorFactory.loadAnnotator(entityModelPath, embeddingPath);
-    HeatmapAnnotator aspectAnnotator = (HeatmapAnnotator) AnnotatorFactory.loadAnnotator(aspectModelPath, embeddingPath);
+    CDVAnnotator entityAnnotator = (CDVAnnotator) AnnotatorFactory.loadAnnotator(entityModelPath, embeddingPath);
+    CDVAnnotator aspectAnnotator = (CDVAnnotator) AnnotatorFactory.loadAnnotator(aspectModelPath, embeddingPath);
     EntityIndex entityIndex = (EntityIndex) entityAnnotator.getEntityEncoder();
     AspectIndex aspectIndex = AspectIndexBuilder.buildAspectIndex(aspectAnnotator.getAspectEncoder(), datasetName);
   
@@ -95,7 +95,7 @@ public class EvaluateCDVRetrieval {
     Dataset corpus = ObjectSerializer.readFromJSON(datasetPath, Dataset.class);
     
     // --- load model --------------------------------------------------------------------------------------------------
-    HeatmapAnnotator cdv = (HeatmapAnnotator) AnnotatorFactory.loadAnnotator(cdvModelPath, embeddingPath);
+    CDVAnnotator cdv = (CDVAnnotator) AnnotatorFactory.loadAnnotator(cdvModelPath, embeddingPath);
     EntityIndex entityIndex = (EntityIndex) cdv.getEntityEncoder();
     AspectIndex aspectIndex = AspectIndexBuilder.buildAspectIndex(cdv.getAspectEncoder(), datasetName);
   

@@ -18,15 +18,6 @@
   <logger name="com.optimaize.langdetect" level="WARN"/>
   <logger name="org.reflections" level="ERROR"/>
   <logger name="de.datexis" level="INFO"/>
-  <logger name="de.datexis.sector" level="DEBUG"/>
-  <logger name="de.datexis.heatmap" level="DEBUG"/>
-  <logger name="de.datexis.el" level="DEBUG"/>
-  <logger name="de.datexis.ned" level="INFO"/>
-  <logger name="de.datexis.service" level="DEBUG"/>
-  <logger name="org.springframework" level="INFO"/>
-  <logger name="org.jboss.logging" level="INFO"/>
-  <logger name="org.springframework" level="INFO"/>
-  <logger name="org.reflections.Reflections" level="INFO"/>
-  <logger name="org.eclipse.jetty" level="INFO"/>
-  
+  <logger name="de.datexis.cdv" level="DEBUG"/>
+
 </configuration>

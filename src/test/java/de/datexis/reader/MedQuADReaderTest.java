@@ -2,9 +2,9 @@ package de.datexis.reader;
 
 
 import com.google.common.collect.Lists;
+import de.datexis.cdv.reader.MedQuADReader;
+import de.datexis.cdv.retrieval.EntityAspectQueryAnnotation;
 import de.datexis.common.Resource;
-import de.datexis.heatmap.reader.MedQuADReader;
-import de.datexis.heatmap.retrieval.EntityAspectQueryAnnotation;
 import de.datexis.model.*;
 import de.datexis.retrieval.model.RelevanceResult;
 import org.junit.Test;
