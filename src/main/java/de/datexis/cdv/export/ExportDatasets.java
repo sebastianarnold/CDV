@@ -6,6 +6,7 @@ import de.datexis.cdv.model.AspectAnnotation;
 import de.datexis.cdv.model.EntityAnnotation;
 import de.datexis.cdv.model.EntityAspectAnnotation;
 import de.datexis.cdv.preprocess.AspectPreprocessor;
+import de.datexis.cdv.reader.HealthQAReader;
 import de.datexis.cdv.reader.MatchZooReader;
 import de.datexis.cdv.reader.MedQuADReader;
 import de.datexis.cdv.reader.WikiSectionQAReader;
@@ -30,6 +31,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -107,6 +109,7 @@ public class ExportDatasets {
         log.info("converting original source...");
         filename = filename.replace("_annotations", "");
         if(corpus.getName().equals("MedQuAD")) readMedQuADsource(corpus, params.sourceFile);
+        else if(corpus.getName().equals("HealthQA")) readHealthQAsource(corpus, params.sourceFile);
         else throw new IllegalArgumentException("Not prepared to convert sources of this dataset.");
         ObjectSerializer.writeJSON(corpus, output.resolve(filename + ".json"));
       }
@@ -128,6 +131,25 @@ public class ExportDatasets {
       Optional<Document> s = src.getDocument(doc.getId());
       if(s.isPresent()) doc.setText(s.get().getText());
       else log.error("Could not find document source for '{}'", doc.getId());
+    }
+  }
+  
+  protected static void readHealthQAsource(Dataset corpus, String sourcePath) throws IOException {
+    Resource labels = Resource.fromDirectory(sourcePath);
+    Resource source = Resource.fromDirectory(labels.getPath().resolveSibling("pinfo-mz-test.txt"));
+    Dataset src = new HealthQAReader()
+            .withAnnotations(EntityAspectAnnotation.class)
+            .withPassageLabelsCSV(labels)
+            .read(source);
+    for(Document doc : corpus.getDocuments()) {
+      Optional<Document> s = src.getDocument(doc.getId());
+      if(s.isPresent()) doc.setText(s.get().getText());
+      else log.error("Could not find document source for '{}'", doc.getId());
+    }
+    Iterator<Query> queries = src.getQueries().iterator();
+    for(Query query : corpus.getQueries()) {
+      if(queries.hasNext()) query.setText(queries.next().getText());
+      else log.error("Could not find query source for '{}'", query.getId());
     }
   }
   

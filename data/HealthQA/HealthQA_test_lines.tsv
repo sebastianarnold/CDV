@@ -1,0 +1,1110 @@
+line	docstart	question	entity_id	entity	type	aspect
+0	1	null	Q504790	Nephrotic syndrome	disease	information
+10	0	null	Q504790	Nephrotic syndrome	disease	causes
+20	0	null	Q504790	Nephrotic syndrome	disease	symptoms
+30	0	null	Q504790	Nephrotic syndrome	disease	complications
+40	0	null	Q504790	Nephrotic syndrome	disease	tests
+50	0	null	Q504790	Nephrotic syndrome	disease	treatment
+60	0	null	Q504790	Nephrotic syndrome	disease	prognosis
+70	1	null	Q847583	Cardiomyopathy	disease	information
+80	0	null	Q283656	Dilated cardiomyopathy	disease	mechanism
+90	0	null	Q283656	Dilated cardiomyopathy	disease	prevalence
+100	0	null	Q283656	Dilated cardiomyopathy	disease	causes
+110	0	null	Q283656	Dilated cardiomyopathy	disease	symptoms
+120	0	null	Q283656	Dilated cardiomyopathy	disease	diagnosis
+130	0	null	Q283656	Dilated cardiomyopathy	disease	impact
+140	0	null	Q283656	Dilated cardiomyopathy	disease	treatment
+150	0	null	Q283656	Dilated cardiomyopathy	disease	complications
+160	0	null	Q283656	Dilated cardiomyopathy	disease	prognosis
+170	1	null	Q12078	Cancer	disease	symptoms
+180	1	null	Q1494682	Menorrhagia	disease	surgery
+190	1	null	Q12152	Heart attack	disease	medication
+200	1	null	Q666412	Cervix	organism	information
+210	0	null	Q666412	Cervix	organism	symptoms
+220	0	null	Q666412	Cervix	organism	infection
+230	1	null	Q7943637	Vulvar intraepithelial neoplasia	disease	information
+240	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	causes
+250	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	symptoms
+260	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	diagnosis
+270	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	treatment
+280	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	prognosis
+290	0	null	Q7943637	Vulvar intraepithelial neoplasia	disease	prevention
+300	1	null	Q60791486	Chronic cough	disease	causes
+310	0	null	Q60791486;Q12078	Chronic cough and cancer	disease	causes
+320	0	null	Q60791486	Chronic cough	disease	causes
+330	0	null	Q60791486	Chronic cough	disease	prognosis
+340	0	null	Q60791486	Chronic cough	disease	severity
+350	0	null	Q60791486	Chronic cough	disease	management
+360	0	null	Q60791486	Chronic cough	disease	tests
+370	0	null	Q60791486	Chronic cough	disease	prevention
+380	0	null	Q60791486	Chronic cough	disease	treatment
+390	0	null	Q60791486	Chronic cough	disease	management
+400	1	null	Q473768	Amniocentesis	procedure	information
+410	0	null	Q473768	Amniocentesis	procedure	diagnosis
+420	0	null	Q473768	Amniocentesis	procedure	severity
+430	0	null	Q473768	Amniocentesis	procedure	treatment
+440	0	null	Q473768	Amniocentesis	procedure	tests
+450	0	null	Q473768	Amniocentesis	procedure	complications
+460	0	null	Q473768	Amniocentesis	procedure	prognosis
+470	0	null	Q473768	Amniocentesis	procedure	severity
+480	1	null	Q35805	Cough	disease	symptoms
+490	0	null	Q35805	Cough	disease	treatment
+500	0	null	Q35805	Cough	disease	prognosis
+510	1	null	Q32778	Bronchiectasis	disease	mechanism
+520	0	null	Q32778	Bronchiectasis	disease	causes
+530	0	null	Q32778	Bronchiectasis	disease	prevalence
+540	0	null	Q32778	Bronchiectasis	disease	symptoms
+550	0	null	Q32778	Bronchiectasis	disease	diagnosis
+560	0	null	Q32778	Bronchiectasis	disease	treatment
+570	0	null	Q32778	Bronchiectasis	disease	prognosis
+580	1	null	Q10253316	Parasite	organism	information
+590	0	null	Q949694	Amoebiasis	disease	information
+600	0	null	Q949694	Amoebiasis	disease	mechanism
+610	0	null	Q949694	Amoebiasis	disease	prevalence
+620	0	null	Q949694	Amoebiasis	disease	symptoms
+630	0	null	Q949694	Amoebiasis	disease	diagnosis
+640	0	null	Q949694	Amoebiasis	disease	treatment
+650	0	null	Q949694	Amoebiasis	disease	prognosis
+660	0	null	Q949694	Amoebiasis	disease	prevention
+670	1	null	Q47790	Tetanus	disease	information
+680	0	null	Q5861101	Tetanus immunisation	procedure	diagnosis
+690	0	null	Q5861101	Tetanus immunisation	procedure	severity
+700	0	null	Q5861101	Tetanus immunisation	procedure	diagnosis
+710	0	null	Q5861101	Tetanus immunisation	procedure	complications
+720	0	null	Q5861101	Tetanus immunisation	procedure	management
+730	1	null	Q155857	Rubella	disease	information
+740	0	null	Q1724539	Congenital rubella syndrome	disease	information
+750	0	null	Q155857	Rubella	disease	tests
+760	1	null	Q83319	Typhoid fever	disease	information
+770	0	null	Q83319	Typhoid fever	disease	prevention
+780	0	null	Q83319	Typhoid fever	disease	complications
+790	0	null	Q83319	Typhoid fever	disease	management
+800	1	null	Q1331905	Lewy body dementia	disease	causes
+810	0	null	Q1331905	Lewy body dementia	disease	prognosis
+820	1	null	Q177171	Frailty syndrome	disease	information
+830	0	null	Q1952420	Multimorbidity	disease	information
+840	0	null	Q177171	Frailty syndrome	disease	diagnosis
+850	0	null	Q177171;Q1952420	Frailty and Multimorbidity	disease	risk factors
+860	0	null	Q177171;Q1952420	Frailty and Multimorbidity	disease	impact
+870	0	null	Q177171;Q1952420	Frailty and Multimorbidity	disease	management
+880	0	null	Q177171;Q1952420	Frailty and Multimorbidity	disease	prevention
+890	1	null	Q560456	Fungal ear infection	disease	symptoms
+900	0	null	Q560456	Fungal ear infection	disease	risk factors
+910	0	null	Q560456	Fungal ear infection	disease	causes
+920	0	null	Q560456	Fungal ear infection	disease	diagnosis
+930	0	null	Q560456	Fungal ear infection	disease	tests
+940	0	null	Q560456	Fungal ear infection	disease	severity
+950	0	null	Q560456	Fungal ear infection	disease	treatment
+960	0	null	Q560456	Fungal ear infection	disease	prognosis
+970	1	null	Q666412	Cervix	organism	information
+980	0	null	Q2563414	Cervical insufficiency	disease	information
+990	0	null	Q2563414	Cervical insufficiency	disease	diagnosis
+1000	0	null	Q2563414	Cervical insufficiency	disease	surgery
+1010	0	null	Q2563414	Cervical insufficiency	disease	treatment
+1020	0	null	Q5065334	Cervical suture	procedure	surgery
+1030	0	null	Q5065334	Cervical suture	procedure	surgery
+1040	0	null	Q5065334	Cervical suture	procedure	impact
+1050	0	null	Q5065334	Cervical suture	procedure	risk factors
+1060	0	null	Q5065334	Cervical suture	procedure	management
+1070	0	null	Q5065334	Cervical suture	procedure	surgery
+1080	0	null	Q5065334	Cervical suture	procedure	prognosis
+1090	1	null	Q841215	Epidural anesthesia	procedure	information
+1100	0	null	Q841215	Epidural anesthesia	procedure	impact
+1110	0	null	Q841215	Epidural anesthesia	procedure	management
+1120	0	null	Q841215	Epidural anesthesia	procedure	prevalence
+1130	0	null	Q841215	Epidural anesthesia	procedure	surgery
+1140	0	null	Q841215	Epidural anesthesia	procedure	recovery
+1150	1	null	Q173022	Bronchitis	disease	information
+1160	0	null	Q173022	Bronchitis	disease	recovery
+1170	1	null	Q6853	Hepatitis B	disease	information
+1180	0	null	Q6853	Hepatitis B	disease	infection
+1190	0	null	Q6853	Hepatitis B	disease	prevention
+1200	0	null	Q6853	Hepatitis B	disease	complications
+1210	0	null	Q6853	Hepatitis B	disease	risk factors
+1220	0	null	Q6853	Hepatitis B	disease	management
+1230	1	null	Q48228	Eyelid	organism	information
+1240	1	null	Q584211	Hydrocele	disease	information
+1250	0	null	Q584211	Hydrocele	disease	symptoms
+1260	0	null	Q584211	Hydrocele	disease	causes
+1270	0	null	Q584211	Hydrocele	disease	treatment
+1280	1	null	Q177911	Steroid	substance	information
+1290	0	null	Q177911	Steroid	substance	mechanism
+1300	1	null	Q2373361	Nut allergy	disease	information
+1310	0	null	Q2373361	Nut allergy	disease	causes
+1320	0	null	Q2373361	Nut allergy	disease	prevalence
+1330	0	null	Q2373361	Nut allergy	disease	risk factors
+1340	0	null	Q2373361	Nut allergy	disease	symptoms
+1350	0	null	Q2373361	Nut allergy	disease	diagnosis
+1360	0	null	Q2373361	Nut allergy	disease	treatment
+1370	0	null	Q2373361	Nut allergy	disease	prevention
+1380	0	null	Q2373361	Nut allergy	disease	management
+1390	0	null	Q2373361	Nut allergy	disease	recovery
+1400	1	null	Q1027995	Pyloric stenosis	disease	information
+1410	0	null	Q1027995	Pyloric stenosis	disease	symptoms
+1420	0	null	Q1027995	Pyloric stenosis	disease	causes
+1430	0	null	Q1027995	Pyloric stenosis	disease	tests
+1440	0	null	Q1027995	Pyloric stenosis	disease	treatment
+1450	1	null	Q38933	Fever in children	disease	mechanism
+1460	0	null	Q38933	Fever in children	disease	mechanism
+1470	0	null	Q38933	Fever in children	disease	causes
+1480	0	null	Q38933	Fever in children	disease	prevalence
+1490	0	null	Q38933	Fever in children	disease	symptoms
+1500	0	null	Q38933	Fever in children	disease	treatment
+1510	0	null	Q38933	Fever in children	disease	severity
+1520	0	null	Q38933	Fever in children	disease	symptoms
+1530	0	null	Q38933	Fever in children	disease	management
+1540	0	null	Q38933	Fever in children	disease	diagnosis
+1550	0	null	Q38933	Fever in children	disease	tests
+1560	0	null	Q38933	Fever in children	disease	management
+1570	0	null	Q38933	Fever in children	disease	management
+1580	1	null	Q12198	Sexually transmitted infection	disease	diagnosis
+1590	0	null	Q12198	Sexually transmitted infection	disease	tests
+1600	0	null	Q7458780	Genitourinary medicine clinic	facility	information
+1610	0	null	Q7458780	Genitourinary medicine clinic	facility	mechanism
+1620	0	null	Q7458780	Genitourinary medicine clinic	facility	diagnosis
+1630	0	null	Q7458780	Genitourinary medicine clinic	facility	management
+1640	0	null	Q12198	Sexually transmitted infection	disease	diagnosis
+1650	0	null	Q12198	Sexually transmitted infection	disease	tests
+1660	0	null	Q12198	Sexually transmitted infection	disease	management
+1670	0	null	Q12198	Sexually transmitted infection	disease	diagnosis
+1680	0	null	Q12198	Sexually transmitted infection	disease	management
+1690	0	null	Q12198	Sexually transmitted infection	disease	treatment
+1700	1	null	Q876887;Q207092	Cellulitis and Erysipelas	disease	information
+1710	0	null	Q876887	Cellulitis	disease	causes
+1720	0	null	Q876887	Cellulitis	disease	risk factors
+1730	0	null	Q876887	Cellulitis	disease	symptoms
+1740	0	null	Q876887	Cellulitis	disease	symptoms
+1750	0	null	Q876887	Cellulitis	disease	symptoms
+1760	0	null	Q876887	Cellulitis	disease	symptoms
+1770	0	null	Q876887	Cellulitis	disease	impact
+1780	0	null	Q876887	Cellulitis	disease	severity
+1790	0	null	Q876887	Cellulitis	disease	treatment
+1800	0	null	Q876887	Cellulitis	disease	severity
+1810	0	null	Q876887	Cellulitis	disease	prevention
+1820	0	null	Q876887	Cellulitis	disease	recovery
+1830	0	null	Q876887	Cellulitis	disease	infection
+1840	0	null	Q876887	Cellulitis	disease	management
+1850	1	null	Q131755	Bipolar disorder	disease	information
+1860	0	null	Q131755	Bipolar disorder	disease	risk factors
+1870	0	null	Q131755	Bipolar disorder	disease	causes
+1880	0	null	Q131755	Bipolar disorder	disease	prognosis
+1890	1	null	Q86	Headache	disease	types
+1900	0	null	Q86	Headache	disease	severity
+1910	1	null	Q12133	Hearing loss	disease	diagnosis
+1920	0	null	Q12133	Hearing loss	disease	tests
+1930	1	null	Q18225	Vitamin A	substance	information
+1940	0	null	Q18225	Vitamin A	disease	medication
+1950	0	null	Q18225	Vitamin A	disease	risk factors
+1960	0	null	Q2655893	Vitamin A deficiency	disease	information
+1970	0	null	Q2655893	Vitamin A deficiency	disease	prevalence
+1980	0	null	Q2655893	Vitamin A deficiency	disease	causes
+1990	0	null	Q2655893	Vitamin A deficiency	disease	symptoms
+2000	0	null	Q2655893	Vitamin A deficiency	disease	diagnosis
+2010	0	null	Q2655893	Vitamin A deficiency	disease	treatment
+2020	0	null	Q2655893	Vitamin A deficiency	disease	prognosis
+2030	0	null	Q2655893	Vitamin A deficiency	disease	prevention
+2040	1	null	Q745865	Trichomoniasis	disease	information
+2050	0	null	Q745865	Trichomoniasis	disease	symptoms
+2060	0	null	Q745865	Trichomoniasis	disease	mechanism
+2070	0	null	Q745865	Trichomoniasis	disease	complications
+2080	0	null	Q745865	Trichomoniasis	disease	diagnosis
+2090	0	null	Q745865	Trichomoniasis	disease	infection
+2100	0	null	Q745865	Trichomoniasis	disease	prevention
+2110	1	null	Q4713263	Alcohol dependence	disease	symptoms
+2120	0	null	Q4713263	Alcohol dependence	disease	management
+2130	0	null	Q4713263	Alcohol dependence	disease	management
+2140	1	null	Q16242752	Allergic contact dermatitis	disease	information
+2150	0	null	Q16242752	Allergic contact dermatitis	disease	severity
+2160	0	null	Q16242752	Allergic contact dermatitis	disease	tests
+2170	0	null	Q16242752	Allergic contact dermatitis	disease	diagnosis
+2180	1	null	Q1228801	Discoid lupus	disease	information
+2190	0	null	Q1228801	Discoid lupus	disease	causes
+2200	0	null	Q1228801	Discoid lupus	disease	prevalence
+2210	0	null	Q1228801	Discoid lupus	disease	diagnosis
+2220	0	null	Q1228801	Discoid lupus	disease	treatment
+2230	0	null	Q1228801	Discoid lupus	disease	complications
+2240	0	null	Q1228801	Discoid lupus	disease	prognosis
+2250	1	null	Q584211	Hydrocele	disease	information
+2260	0	null	Q584211	Hydrocele	disease	symptoms
+2270	0	null	Q584211	Hydrocele	disease	causes
+2280	0	null	Q584211	Hydrocele	disease	tests
+2290	0	null	Q584211	Hydrocele	disease	treatment
+2300	1	null	Q662298	Ectropion	disease	information
+2310	0	null	Q662298	Ectropion	disease	causes
+2320	0	null	Q662298	Ectropion	disease	symptoms
+2330	0	null	Q662298	Ectropion	disease	treatment
+2340	1	null	Q659584	Molluscum contagiosum	disease	symptoms
+2350	0	null	Q659584	Molluscum contagiosum	disease	causes
+2360	0	null	Q659584	Molluscum contagiosum	disease	risk factors
+2370	0	null	Q659584	Molluscum contagiosum	disease	mechanism
+2380	0	null	Q659584	Molluscum contagiosum	disease	severity
+2390	0	null	Q659584	Molluscum contagiosum	disease	prevention
+2400	0	null	Q659584	Molluscum contagiosum	disease	treatment
+2410	1	null	Q47715	Down syndrome	disease	information
+2420	0	null	Q47715	Down syndrome	disease	causes
+2430	0	null	Q47715	Down syndrome	disease	symptoms
+2440	0	null	Q47715	Down syndrome	disease	prevalence
+2450	0	null	Q47715	Down syndrome	disease	diagnosis
+2460	0	null	Q47715	Down syndrome	disease	tests
+2470	0	null	Q47715	Down syndrome	disease	treatment
+2480	0	null	Q47715	Down syndrome	disease	management
+2490	0	null	Q47715	Down syndrome	disease	prognosis
+2500	1	null	Q506652	Kidney infection	disease	causes
+2510	0	null	Q506652	Kidney infection	disease	symptoms
+2520	0	null	Q506652	Kidney infection	disease	tests
+2530	0	null	Q506652	Kidney infection	disease	treatment
+2540	0	null	Q506652	Kidney infection	disease	complications
+2550	0	null	Q506652	Kidney infection	disease	prevention
+2560	1	null	Q9618	Pancreas	organism	information
+2570	0	null	Q212961	Pancreatic cancer	disease	information
+2580	0	null	Q212961	Pancreatic cancer	disease	causes
+2590	0	null	Q212961	Pancreatic cancer	disease	symptoms
+2600	0	null	Q212961	Pancreatic cancer	disease	diagnosis
+2610	0	null	Q212961	Pancreatic cancer	disease	treatment
+2620	0	null	Q212961	Pancreatic cancer	disease	prognosis
+2630	1	null	Q179951	Squint	disease	information
+2640	0	null	Q179951	Squint	disease	types
+2650	0	null	Q179951	Squint in children	disease	causes
+2660	0	null	Q179951	Squint in children	disease	complications
+2670	0	null	Q179951	Squint	disease	diagnosis
+2680	0	null	Q179951	Squint	disease	treatment
+2690	0	null	Q179951	Squint in children	disease	prognosis
+2700	1	null	Q16408	Halitosis	disease	prevalence
+2710	0	null	Q16408	Halitosis	disease	causes
+2720	0	null	Q16408	Halitosis	disease	diagnosis
+2730	0	null	Q16408	Halitosis	disease	management
+2740	0	null	Q16408	Halitosis	disease	tests
+2750	0	null	Q16408	Halitosis	disease	treatment
+2760	0	null	Q16408	Halitosis	disease	management
+2770	1	null	Q302481	CT colonography	procedure	information
+2780	0	null	Q302481	CT colonography	procedure	diagnosis
+2790	0	null	Q302481	CT colonography	procedure	tests
+2800	0	null	Q302481	CT colonography	procedure	mechanism
+2810	0	null	Q302481	CT colonography	procedure	management
+2820	0	null	Q302481	CT colonography	procedure	prognosis
+2830	0	null	Q302481	CT colonography	procedure	complications
+2840	1	null	Q4667072	Fibroid	disease	information
+2850	0	null	Q4667072	Fibroid	disease	prevalence
+2860	0	null	Q4667072	Fibroid	disease	causes
+2870	0	null	Q4667072	Fibroid	disease	diagnosis
+2880	1	null	Q1066311	Complex regional pain syndrome	disease	information
+2890	0	null	Q1066311	Complex regional pain syndrome	disease	causes
+2900	0	null	Q1066311	Complex regional pain syndrome	disease	prevalence
+2910	0	null	Q1066311	Complex regional pain syndrome	disease	symptoms
+2920	0	null	Q1066311	Complex regional pain syndrome	disease	tests
+2930	0	null	Q1066311	Complex regional pain syndrome	disease	treatment
+2940	0	null	Q1066311	Complex regional pain syndrome	disease	treatment
+2950	0	null	Q1066311	Complex regional pain syndrome	disease	prognosis
+2960	0	null	Q1066311	Complex regional pain syndrome	disease	prevention
+2970	1	null	Q11000047	Health costs	regulation	management
+2980	0	null	Q11000047	Health costs	regulation	management
+2990	0	null	Q11000047	Health costs	regulation	management
+3000	0	null	Q11000047	Health costs	regulation	management
+3010	0	null	Q11000047	Health costs	regulation	information
+3020	1	null	Q25419	Escherichia coli	disease	information
+3030	0	null	Q25419	Escherichia coli	disease	complications
+3040	0	null	Q59307384	ESBL-producing Escherichia coli	disease	information
+3050	0	null	Q59307384	ESBL-producing Escherichia coli	disease	risk factors
+3060	0	null	Q59307384	ESBL-producing Escherichia coli	disease	treatment
+3070	0	null	Q59307384	ESBL-producing Escherichia coli	disease	prevention
+3080	0	null	Q59307384	ESBL-producing Escherichia coli	disease	prognosis
+3090	1	null	Q2364836	Cold sore infection	disease	information
+3100	0	null	Q2364836	Cold sore infection	disease	symptoms
+3110	0	null	Q2364836	Cold sore infection	disease	treatment
+3120	0	null	Q2364836	Cold sore infection	disease	severity
+3130	1	null	Q1816730	Probiotic	organism	information
+3140	0	null	Q218870	Prebiotic	substance	information
+3150	0	null	Q2375654	Synbiotic	substance	information
+3160	0	null	Q1816730;Q218870	Probiotics and Prebiotics	organism	mechanism
+3170	0	null	Q1816730;Q218870	Probiotics and Prebiotics	organism	complications
+3180	1	null	Q653971	Dyspepsia	disease	information
+3190	0	null	Q653971	Dyspepsia	disease	causes
+3200	0	null	Q653971	Dyspepsia	disease	treatment
+3210	1	null	Q12078	Cancer	disease	information
+3220	0	null	Q12078;Q5625186	Gynaecological cancer	disease	types
+3230	0	null	Q12078;Q5625186	Gynaecological cancer	disease	tests
+3240	1	null	Q55105885	Shoulder pain	disease	prevalence
+3250	0	null	Q55105885	Shoulder pain	disease	causes
+3260	0	null	Q55105885	Shoulder pain	disease	tests
+3270	0	null	Q55105885	Shoulder pain	disease	treatment
+3280	0	null	Q55105885	Shoulder pain	disease	prognosis
+3290	0	null	Q9530	Controlled breathing	procedure	management
+3300	1	null	Q1068323	Temporomandibular joint disorder	disease	information
+3310	0	null	Q1068323	Temporomandibular joint disorder	disease	symptoms
+3320	0	null	Q1068323	Temporomandibular joint disorder	disease	prevalence
+3330	0	null	Q1068323	Temporomandibular joint disorder	disease	causes
+3340	0	null	Q1068323	Temporomandibular joint disorder	disease	diagnosis
+3350	0	null	Q1068323	Temporomandibular joint disorder	disease	treatment
+3360	0	null	Q1068323	Temporomandibular joint disorder	disease	prognosis
+3370	1	null	Q1151507	Dermatitis herpetiformis	disease	information
+3380	0	null	Q1151507	Dermatitis herpetiformis	disease	causes
+3390	0	null	Q1151507	Dermatitis herpetiformis	disease	risk factors
+3400	0	null	Q1151507	Dermatitis herpetiformis	disease	symptoms
+3410	0	null	Q1151507	Dermatitis herpetiformis	disease	diagnosis
+3420	0	null	Q1151507	Dermatitis herpetiformis	disease	treatment
+3430	0	null	Q1151507	Dermatitis herpetiformis	disease	complications
+3440	0	null	Q1151507	Dermatitis herpetiformis	disease	prognosis
+3450	1	null	Q18123741	Wound infection	disease	information
+3460	0	null	Q18123741	Wound infection	disease	mechanism
+3470	0	null	Q18123741	Wound infection	disease	diagnosis
+3480	0	null	Q18123741	Wound infection	disease	management
+3490	0	null	Q18123741	Wound infection	disease	treatment
+3500	0	null	Q18123741	Wound infection	disease	complications
+3510	0	null	Q18123741	Wound infection	disease	prevention
+3520	1	null	Q9382	Bladder	organism	information
+3530	0	null	Q504775	Bladder cancer	disease	information
+3540	0	null	Q504775	Bladder cancer	disease	prevalence
+3550	0	null	Q504775	Bladder cancer	disease	causes
+3560	0	null	Q504775	Bladder cancer	disease	symptoms
+3570	0	null	Q504775	Bladder cancer	disease	diagnosis
+3580	0	null	Q504775	Bladder cancer	disease	treatment
+3590	0	null	Q504775	Bladder cancer	disease	treatment
+3600	0	null	Q504775	Bladder cancer	disease	prognosis
+3610	1	null	Q3149432	Contraceptive implant	product	information
+3620	0	null	Q3149432	Contraceptive implant	product	impact
+3630	0	null	Q3149432	Contraceptive implant	product	mechanism
+3640	0	null	Q3149432	Contraceptive implant	product	impact
+3650	0	null	Q3149432	Contraceptive implant	product	management
+3660	0	null	Q3149432	Contraceptive implant	product	surgery
+3670	0	null	Q3149432	Contraceptive implant	product	prognosis
+3680	0	null	Q3149432	Contraceptive implant	product	surgery
+3690	0	null	Q3149432	Contraceptive implant	product	tests
+3700	0	null	Q3149432	Contraceptive implant	product	severity
+3710	0	null	Q3149432	Contraceptive implant	product	complications
+3720	0	null	Q3149432	Contraceptive implant	product	risk factors
+3730	0	null	Q3149432	Contraceptive implant	product	management
+3740	0	null	Q3149432	Contraceptive implant	product	complications
+3750	0	null	Q3149432	Contraceptive implant	product	complications
+3760	0	null	Q3149432	Contraceptive implant	product	management
+3770	0	null	Q3149432	Contraceptive implant	product	management
+3780	0	null	Q3149432	Contraceptive implant	product	management
+3790	1	null	Q2031871	Hand-arm vibration syndrome	disease	information
+3800	0	null	Q2031871	Hand-arm vibration syndrome	disease	causes
+3810	0	null	Q2031871	Hand-arm vibration syndrome	disease	symptoms
+3820	0	null	Q2031871	Hand-arm vibration syndrome	disease	severity
+3830	0	null	Q2031871	Hand-arm vibration syndrome	disease	diagnosis
+3840	0	null	Q2031871	Hand-arm vibration syndrome	disease	prevention
+3850	0	null	Q2031871	Hand-arm vibration syndrome	disease	management
+3860	0	null	Q2031871	Hand-arm vibration syndrome	disease	treatment
+3870	0	null	Q2031871	Hand-arm vibration syndrome	disease	recovery
+3880	0	null	Q2031871	Hand-arm vibration syndrome	disease	impact
+3890	1	null	Q595307	Foot sweat	disease	mechanism
+3900	0	null	Q595307	Foot sweat	disease	treatment
+3910	0	null	Q595307	Foot sweat	disease	complications
+3920	0	null	Q595307	Foot sweat	disease	risk factors
+3930	1	null	Q1928938	Bone scan	procedure	mechanism
+3940	0	null	Q1928938	Bone scan	procedure	impact
+3950	0	null	Q1928938	Bone scan	procedure	tests
+3960	0	null	Q1928938	Bone scan	procedure	management
+3970	0	null	Q1928938	Bone scan	procedure	prognosis
+3980	0	null	Q1928938	Bone scan	procedure	complications
+3990	1	null	Q205764	Endometriosis	disease	information
+4000	0	null	Q205764	Endometriosis	disease	risk factors
+4010	0	null	Q205764	Endometriosis	disease	causes
+4020	0	null	Q205764	Endometriosis	disease	symptoms
+4030	0	null	Q205764	Endometriosis	disease	tests
+4040	0	null	Q205764	Endometriosis	disease	mechanism
+4050	1	null	Q743826	Metatarsalgia	disease	information
+4060	0	null	Q743826	Metatarsalgia	disease	causes
+4070	0	null	Q743826	Metatarsalgia	disease	symptoms
+4080	0	null	Q743826	Metatarsalgia	disease	tests
+4090	0	null	Q743826	Metatarsalgia	disease	treatment
+4100	0	null	Q743826	Metatarsalgia	disease	prevention
+4110	1	null	Q199602	Itch	disease	information
+4120	0	null	Q199602	Itch	disease	treatment
+4130	1	null	Q186020	Coronary artery bypass grafting	procedure	information
+4140	0	null	Q186020	Coronary artery bypass grafting	procedure	impact
+4150	0	null	Q186020	Coronary artery bypass grafting	procedure	diagnosis
+4160	0	null	Q186020	Coronary artery bypass grafting	procedure	tests
+4170	0	null	Q186020	Coronary artery bypass grafting	procedure	prognosis
+4180	0	null	Q186020	Coronary artery bypass grafting	procedure	risk factors
+4190	0	null	Q186020	Coronary artery bypass grafting	procedure	complications
+4200	0	null	Q186020	Coronary artery bypass grafting	procedure	management
+4210	1	null	Q178436	Constipation	disease	information
+4220	0	null	Q178436	Constipation	disease	causes
+4230	0	null	Q178436	Constipation	disease	tests
+4240	0	null	Q178436	Constipation	disease	prevention
+4250	0	null	Q178436	Constipation	disease	treatment
+4260	0	null	Q178436	Constipation	disease	medication
+4270	0	null	Q178436	Constipation	disease	complications
+4280	1	null	Q639776	Cat-scratch disease	disease	information
+4290	0	null	Q639776	Cat-scratch disease	disease	causes
+4300	0	null	Q639776	Cat-scratch disease	disease	risk factors
+4310	0	null	Q639776	Cat-scratch disease	disease	symptoms
+4320	0	null	Q639776	Cat-scratch disease	disease	symptoms
+4330	0	null	Q639776	Cat-scratch disease	disease	symptoms
+4340	0	null	Q639776	Cat-scratch disease	disease	diagnosis
+4350	0	null	Q639776	Cat-scratch disease	disease	tests
+4360	0	null	Q639776	Cat-scratch disease	disease	complications
+4370	0	null	Q639776	Cat-scratch disease	disease	treatment
+4380	0	null	Q639776	Cat-scratch disease	disease	prognosis
+4390	0	null	Q639776	Cat-scratch disease	disease	prevention
+4400	1	null	Q874586	Peyronie's disease	disease	information
+4410	0	null	Q874586	Peyronie's disease	disease	causes
+4420	0	null	Q874586	Peyronie's disease	disease	risk factors
+4430	0	null	Q874586	Peyronie's disease	disease	complications
+4440	0	null	Q874586	Peyronie's disease	disease	symptoms
+4450	0	null	Q874586	Peyronie's disease	disease	diagnosis
+4460	0	null	Q874586	Peyronie's disease	disease	tests
+4470	0	null	Q874586	Peyronie's disease	disease	treatment
+4480	0	null	Q874586	Peyronie's disease	disease	prognosis
+4490	1	null	Q47715	Down syndrome	disease	information
+4500	0	null	Q47715	Down syndrome	disease	risk factors
+4510	0	null	Q47715	Down syndrome	disease	diagnosis
+4520	0	null	Q47715	Down syndrome	disease	tests
+4530	0	null	Q47715	Down syndrome	disease	tests
+4540	1	null	Q500695	Retinoblastoma	disease	information
+4550	0	null	Q500695	Retinoblastoma	disease	prevalence
+4560	0	null	Q500695	Retinoblastoma	disease	causes
+4570	0	null	Q500695	Retinoblastoma	disease	inheritance
+4580	0	null	Q500695	Retinoblastoma	disease	severity
+4590	0	null	Q500695	Retinoblastoma	disease	symptoms
+4600	0	null	Q500695	Retinoblastoma	disease	tests
+4610	0	null	Q500695	Retinoblastoma	disease	mechanism
+4620	0	null	Q500695	Retinoblastoma	disease	treatment
+4630	0	null	Q500695	Retinoblastoma	disease	management
+4640	0	null	Q500695	Retinoblastoma	disease	prognosis
+4650	0	null	Q500695	Retinoblastoma	disease	management
+4660	0	null	Q500695	Retinoblastoma	disease	prevention
+4670	0	null	Q500695	Retinoblastoma	disease	prognosis
+4680	0	null	Q500695	Retinoblastoma	disease	tests
+4690	1	null	Q16058933	Gaming addiction	disease	information
+4700	0	null	Q16058933	Gaming addiction	disease	prevalence
+4710	0	null	Q16058933	Gaming addiction	disease	symptoms
+4720	0	null	Q16058933	Gaming addiction	disease	treatment
+4730	0	null	Q16058933	Gaming addiction	disease	prognosis
+4740	1	null	Q9597	Left upper quadrant	organism	information
+4750	0	null	Q9597	Left upper quadrant	organism	information
+4760	0	null	Q183425	Left upper quadrant pain	disease	causes
+4770	0	null	Q183425	Left upper quadrant pain in pregnancy	disease	causes
+4780	0	null	Q183425	Left upper quadrant pain in children	disease	causes
+4790	0	null	Q183425	Left upper quadrant pain	disease	causes
+4800	0	null	Q712378	Organ	organism	prevalence
+4810	0	null	Q183425	Left upper quadrant pain	disease	tests
+4820	0	null	Q183425	Left upper quadrant pain	disease	management
+4830	0	null	Q183425	Left upper quadrant pain	disease	treatment
+4840	0	null	Q183425	Left upper quadrant pain	disease	prognosis
+4850	1	null	Q1225289	Muscle relaxant	substance	information
+4860	0	null	Q1225289	Muscle relaxant	substance	mechanism
+4870	0	null	Q1225289	Muscle relaxant	substance	medication
+4880	0	null	Q1225289	Muscle relaxant	substance	treatment
+4890	0	null	Q1225289	Muscle relaxant	substance	complications
+4900	0	null	Q1225289	Muscle relaxant	substance	management
+4910	0	null	Q1225289	Muscle relaxant	substance	management
+4920	1	null	Q1163564	Screening test	procedure	tests
+4930	1	null	Q217972	Laxative	substance	information
+4940	0	null	Q178436	Constipation	disease	information
+4950	0	null	Q217972	Laxative	substance	mechanism
+4960	0	null	Q217972	Laxative	substance	medication
+4970	0	null	Q217972	Laxative	substance	impact
+4980	0	null	Q217972	Laxative	substance	medication
+4990	0	null	Q217972	Laxative	substance	complications
+5000	0	null	Q217972	Laxative	substance	management
+5010	0	null	Q217972	Laxative	substance	types
+5020	1	null	Q17149508	Vulnerable adult abuse	disease	information
+5030	0	null	Q17149508	Vulnerable adult abuse	disease	risk factors
+5040	0	null	Q17149508	Vulnerable adult abuse	disease	prevalence
+5050	0	null	Q17149508	Vulnerable adult abuse	disease	diagnosis
+5060	0	null	Q17149508	Vulnerable adult abuse	disease	management
+5070	0	null	Q17149508	Vulnerable adult abuse	disease	management
+5080	1	null	Q497	Anal disorder	disease	treatment
+5090	0	null	Q497	Anal disorder	disease	medication
+5100	0	null	Q497	Anal disorder	disease	types
+5110	0	null	Q497	Anal disorder	disease	management
+5120	0	null	Q497	Anal disorder	disease	complications
+5130	1	null	Q25419	Escherichia coli	organism	information
+5140	0	null	Q25419	Escherichia coli	organism	complications
+5150	0	null	Q878402	Escherichia coli O157	organism	information
+5160	0	null	Q878402	Escherichia coli O157	organism	symptoms
+5170	0	null	Q878402	Escherichia coli O157	organism	infection
+5180	0	null	Q878402	Escherichia coli O157	organism	diagnosis
+5190	0	null	Q878402	Escherichia coli O157	organism	treatment
+5200	0	null	Q878402	Escherichia coli O157	organism	prognosis
+5210	0	null	Q878402	Escherichia coli O157	organism	prevention
+5220	1	null	Q1415326	Sever's disease	disease	information
+5230	0	null	Q1415326	Sever's disease	disease	causes
+5240	0	null	Q1415326	Sever's disease	disease	prevalence
+5250	0	null	Q1415326	Sever's disease	disease	symptoms
+5260	0	null	Q1415326	Sever's disease	disease	diagnosis
+5270	0	null	Q1415326	Sever's disease	disease	treatment
+5280	0	null	Q1415326	Sever's disease	disease	prognosis
+5290	0	null	Q1415326	Sever's disease	disease	prevention
+5300	1	null	Q686574	Endometrial hyperplasia	disease	information
+5310	0	null	Q686574	Endometrial hyperplasia	disease	risk factors
+5320	0	null	Q686574	Endometrial hyperplasia	disease	symptoms
+5330	0	null	Q686574	Endometrial hyperplasia	disease	tests
+5340	0	null	Q686574	Endometrial hyperplasia	disease	treatment
+5350	0	null	Q686574	Endometrial hyperplasia	disease	prognosis
+5360	1	null	Q6679974	Assisted vaginal delivery	procedure	prevalence
+5370	0	null	Q6679974	Assisted vaginal delivery	procedure	diagnosis
+5380	0	null	Q6679974	Assisted vaginal delivery	procedure	types
+5390	0	null	Q6679974	Assisted vaginal delivery	procedure	impact
+5400	0	null	Q1137446	Episiotomy	procedure	diagnosis
+5410	0	null	Q1364965	Forceps delivery	procedure	information
+5420	0	null	Q1364965	Forceps delivery	procedure	mechanism
+5430	0	null	Q1364965	Forceps delivery	procedure	types
+5440	0	null	Q1364965	Forceps delivery	procedure	types
+5450	0	null	Q1364965	Forceps delivery	procedure	complications
+5460	0	null	Q1252883	Vacuum extraction	procedure	information
+5470	0	null	Q1364965;Q1252883	Forceps delivery or vacuum extraction	procedure	types
+5480	0	null	Q5854394	Odón Device	product	information
+5490	0	null	Q261327	Thrombosis	disease	complications
+5500	0	null	Q5880	Vaginal tear	disease	information
+5510	0	null	Q281490;Q6679974	Urinary incontinence and assisted delivery	procedure	information
+5520	0	null	Q6679974	Assisted vaginal delivery	procedure	prevention
+5530	0	null	Q6679974	Assisted vaginal delivery	procedure	recovery
+5540	0	null	Q6679974	Assisted vaginal delivery	procedure	prognosis
+5550	0	null	Q6679974	Assisted vaginal delivery	procedure	recovery
+5560	1	null	Q223907	Tremor	disease	information
+5570	0	null	Q223907	Tremor	disease	risk factors
+5580	0	null	Q223907	Tremor	disease	diagnosis
+5590	0	null	Q16399	Thyroid gland	organism	tests
+5600	0	null	Q16399	Thyroid gland	organism	information
+5610	0	null	Q16399	Thyroid gland	organism	tests
+5620	0	null	Q16399	Thyroid gland	organism	tests
+5630	0	null	Q16399	Thyroid gland	organism	mechanism
+5640	0	null	Q16399	Thyroid gland	organism	management
+5650	0	null	Q16399	Thyroid gland	organism	prognosis
+5660	0	null	Q16399	Thyroid gland	organism	complications
+5670	1	null	Q324634	Mammography	procedure	information
+5680	0	null	Q324634	Mammography	procedure	diagnosis
+5690	0	null	Q324634	Mammography	procedure	mechanism
+5700	0	null	Q324634	Mammography	procedure	complications
+5710	0	null	Q324634	Mammography	procedure	management
+5720	0	null	Q324634	Mammography	procedure	management
+5730	1	null	Q221159	Schistosomiasis	disease	information
+5740	0	null	Q221159	Schistosomiasis	disease	causes
+5750	0	null	Q221159	Schistosomiasis	disease	prevalence
+5760	0	null	Q221159	Schistosomiasis	disease	risk factors
+5770	0	null	Q221159	Schistosomiasis	disease	prevalence
+5780	0	null	Q221159	Schistosomiasis	disease	symptoms
+5790	0	null	Q221159	Schistosomiasis	disease	diagnosis
+5800	0	null	Q221159	Schistosomiasis	disease	treatment
+5810	0	null	Q221159	Schistosomiasis	disease	complications
+5820	0	null	Q221159	Schistosomiasis	disease	prognosis
+5830	0	null	Q221159	Schistosomiasis	disease	prevention
+5840	1	null	Q12078	Cancer	disease	information
+5850	1	null	Q2364836	Cold sore	disease	mechanism
+5860	0	null	Q2364836	Cold sore	disease	symptoms
+5870	0	null	Q2364836	Cold sore	disease	infection
+5880	0	null	Q2364836	Cold sore	disease	tests
+5890	0	null	Q2364836	Cold sore	disease	treatment
+5900	0	null	Q2364836	Cold sore	disease	severity
+5910	1	null	Q625506	Preterm birth	disease	information
+5920	0	null	Q625506	Preterm birth	disease	mechanism
+5930	0	null	Q625506	Preterm birth	disease	prognosis
+5940	0	null	Q625506	Preterm birth	disease	complications
+5950	0	null	Q625506	Preterm birth	disease	prognosis
+5960	1	null	Q44727	Chickenpox	disease	information
+5970	0	null	Q44727	Chickenpox	disease	symptoms
+5980	0	null	Q44727	Chickenpox	disease	treatment
+5990	0	null	Q44727	Chickenpox	disease	complications
+6000	0	null	Q44727	Chickenpox	disease	infection
+6010	0	null	Q44727	Chickenpox	disease	prevention
+6020	1	null	Q673281	Sexual assault	crime	management
+6030	0	null	Q673281	Sexual assault	crime	management
+6040	0	null	Q673281	Sexual assault	crime	prevalence
+6050	0	null	Q673281	Sexual assault	crime	types
+6060	0	null	Q673281	Sexual assault	crime	risk factors
+6070	0	null	Q673281	Sexual assault	crime	management
+6080	0	null	Q673281	Sexual assault	crime	impact
+6090	0	null	Q673281	Sexual assault	crime	prognosis
+6100	0	null	Q673281	Sexual assault	crime	management
+6110	0	null	Q673281	Sexual assault	crime	impact
+6120	0	null	Q673281	Sexual assault	crime	complications
+6130	0	null	Q673281	Sexual assault	crime	complications
+6140	0	null	Q673281	Sexual assault	crime	complications
+6150	0	null	Q673281	Sexual assault	crime	recovery
+6160	0	null	Q673281	Sexual assault	crime	management
+6170	0	null	Q673281	Sexual assault	crime	impact
+6180	0	null	Q673281	Sexual assault	crime	prevention
+6190	1	null	Q185137	Thalassemia	disease	information
+6200	0	null	Q185137	Thalassemia	disease	causes
+6210	0	null	Q185137	Thalassemia	disease	types
+6220	0	null	Q185137	Thalassemia	disease	prevalence
+6230	0	null	Q185137	Thalassemia	disease	inheritance
+6240	0	null	Q185137	Thalassemia	disease	risk factors
+6250	1	null	Q341045	Mindfulness	procedure	information
+6260	0	null	Q341045	Mindfulness	procedure	impact
+6270	0	null	Q341045	Mindfulness	procedure	management
+6280	1	null	Q423965	Acoustic neuroma	disease	prevalence
+6290	0	null	Q423965	Acoustic neuroma	disease	diagnosis
+6300	0	null	Q423965	Acoustic neuroma	disease	complications
+6310	0	null	Q423965	Acoustic neuroma	disease	prognosis
+6320	1	null	Q219223	Lactose intolerance	disease	information
+6330	0	null	Q219223	Lactose intolerance	disease	causes
+6340	0	null	Q219223	Lactose intolerance	disease	prevalence
+6350	0	null	Q219223	Lactose intolerance	disease	complications
+6360	0	null	Q219223	Lactose intolerance	disease	treatment
+6370	1	null	Q1269276	Pompholyx	disease	information
+6380	0	null	Q1269276	Pompholyx	disease	causes
+6390	0	null	Q1269276	Pompholyx	disease	risk factors
+6400	0	null	Q1269276	Pompholyx	disease	symptoms
+6410	0	null	Q1269276	Pompholyx	disease	diagnosis
+6420	0	null	Q1269276	Pompholyx	disease	treatment
+6430	0	null	Q1269276	Pompholyx	disease	prognosis
+6440	1	null	Q188724	Anti-inflammatory painkiller	substance	information
+6450	0	null	Q188724	Anti-inflammatory painkiller	substance	diagnosis
+6460	0	null	Q188724	Anti-inflammatory painkiller	substance	mechanism
+6470	0	null	Q188724	Anti-inflammatory painkiller	substance	complications
+6480	1	null	Q5172199	Coronary artery spasm	disease	information
+6490	0	null	Q5172199	Coronary artery spasm	disease	prevalence
+6500	0	null	Q5172199	Coronary artery spasm	disease	causes
+6510	0	null	Q5172199	Coronary artery spasm	disease	symptoms
+6520	0	null	Q5172199	Coronary artery spasm	disease	tests
+6530	0	null	Q5172199	Coronary artery spasm	disease	treatment
+6540	0	null	Q5172199	Coronary artery spasm	disease	complications
+6550	0	null	Q5172199	Coronary artery spasm	disease	prognosis
+6560	1	null	Q165328	Osteoporosis	disease	information
+6570	0	null	Q165328	Osteoporosis	disease	prevalence
+6580	0	null	Q165328	Osteoporosis	disease	risk factors
+6590	0	null	Q165328	Osteoporosis	disease	prevention
+6600	1	null	Q55779861	Cystitis	disease	risk factors
+6610	0	null	Q55779861	Cystitis	disease	prevention
+6620	0	null	Q55779861	Cystitis	disease	treatment
+6630	1	null	Q1141499	Ehlers-Danlos syndrome	disease	information
+6640	0	null	Q1141499	Ehlers-Danlos syndrome	disease	causes
+6650	0	null	Q1141499	Ehlers-Danlos syndrome	disease	types
+6660	0	null	Q1141499	Ehlers-Danlos syndrome	disease	prevalence
+6670	0	null	Q1141499	Ehlers-Danlos syndrome	disease	symptoms
+6680	0	null	Q1141499	Ehlers-Danlos syndrome	disease	complications
+6690	0	null	Q1141499	Ehlers-Danlos syndrome	disease	diagnosis
+6700	0	null	Q1141499	Ehlers-Danlos syndrome	disease	treatment
+6710	0	null	Q1141499	Ehlers-Danlos syndrome	disease	prognosis
+6720	1	null	Q17021782	Prescription charges	regulation	prevalence
+6730	0	null	Q17021782	Prescription charges	regulation	risk factors
+6740	0	null	Q17021782	Prescription charges	regulation	management
+6750	0	null	Q17021782	Prescription charges	regulation	management
+6760	0	null	Q17021782	Prescription charges	regulation	severity
+6770	1	null	Q2197452	Corns and calluses	disease	information
+6780	0	null	Q2197452	Corns and calluses	disease	causes
+6790	0	null	Q2197452	Corns and calluses	disease	treatment
+6800	1	null	Q16606552	Obstructive sleep apnoea	disease	information
+6810	0	null	Q16606552	Obstructive sleep apnoea	disease	mechanism
+6820	0	null	Q16606552	Obstructive sleep apnoea	disease	risk factors
+6830	0	null	Q16606552	Obstructive sleep apnoea	disease	symptoms
+6840	0	null	Q16606552	Obstructive sleep apnoea	disease	tests
+6850	0	null	Q16606552	Obstructive sleep apnoea	disease	treatment
+6860	1	null	Q596474	Conduct disorder	disease	information
+6870	0	null	Q596474	Conduct disorder	disease	causes
+6880	0	null	Q596474	Conduct disorder	disease	prognosis
+6890	0	null	Q596474	Conduct disorder	disease	treatment
+6900	1	null	Q3896379	Paronychia	disease	information
+6910	0	null	Q3896379	Paronychia	disease	causes
+6920	0	null	Q3896379	Paronychia	disease	risk factors
+6930	0	null	Q3896379	Paronychia	disease	treatment
+6940	0	null	Q3896379	Paronychia	disease	prevention
+6950	1	null	Q7604707	Statutory sick pay	regulation	information
+6960	0	null	Q7604707	Statutory sick pay	regulation	diagnosis
+6970	0	null	Q7604707	Statutory sick pay	regulation	management
+6980	0	null	Q7604707	Statutory sick pay	regulation	impact
+6990	1	null	Q501561	Pericarditis	disease	information
+7000	0	null	Q501561	Pericarditis	disease	causes
+7010	0	null	Q501561	Pericarditis	disease	symptoms
+7020	0	null	Q501561	Pericarditis	disease	complications
+7030	0	null	Q501561	Pericarditis	disease	diagnosis
+7040	0	null	Q501561	Pericarditis	disease	treatment
+7050	0	null	Q501561	Pericarditis	disease	prognosis
+7060	1	null	Q272002	Food poisoning	disease	information
+7070	0	null	Q272002	Food poisoning	disease	symptoms
+7080	0	null	Q272002	Food poisoning	disease	causes
+7090	0	null	Q272002	Food poisoning	disease	diagnosis
+7100	0	null	Q272002	Food poisoning	disease	treatment
+7110	0	null	Q272002	Food poisoning	disease	complications
+7120	0	null	Q272002	Food poisoning	disease	prevention
+7130	1	null	Q3144957	Vitreous haemorrhage	disease	information
+7140	0	null	Q326710	Vitreous humour	organism	information
+7150	0	null	Q3144957	Vitreous haemorrhage	disease	prevalence
+7160	0	null	Q3144957	Vitreous haemorrhage	disease	risk factors
+7170	0	null	Q3144957	Vitreous haemorrhage	disease	causes
+7180	0	null	Q3144957	Vitreous haemorrhage	disease	symptoms
+7190	0	null	Q3144957	Vitreous haemorrhage	disease	diagnosis
+7200	0	null	Q3144957	Vitreous haemorrhage	disease	treatment
+7210	0	null	Q3144957	Vitreous haemorrhage	disease	prognosis
+7220	0	null	Q3144957	Vitreous haemorrhage	disease	prevention
+7230	1	null	Q1129105	Diabetic kidney disease	disease	information
+7240	0	null	Q1129105	Diabetic kidney disease	disease	mechanism
+7250	0	null	Q1129105	Diabetic kidney disease	disease	prevalence
+7260	0	null	Q1129105	Diabetic kidney disease	disease	symptoms
+7270	0	null	Q1129105	Diabetic kidney disease	disease	diagnosis
+7280	0	null	Q1129105	Diabetic kidney disease	disease	risk factors
+7290	0	null	Q1129105	Diabetic kidney disease	disease	complications
+7300	0	null	Q1129105	Diabetic kidney disease	disease	treatment
+7310	0	null	Q1129105	Diabetic kidney disease	disease	prognosis
+7320	1	null	Q18554884	Retinal vein occlusion	disease	information
+7330	0	null	Q18554884	Retinal vein occlusion	disease	risk factors
+7340	0	null	Q18554884	Retinal vein occlusion	disease	risk factors
+7350	0	null	Q18554884	Retinal vein occlusion	disease	symptoms
+7360	0	null	Q18554884	Retinal vein occlusion	disease	diagnosis
+7370	0	null	Q18554884	Retinal vein occlusion	disease	impact
+7380	0	null	Q18554884	Retinal vein occlusion	disease	mechanism
+7390	0	null	Q18554884	Retinal vein occlusion	disease	causes
+7400	0	null	Q18554884	Retinal vein occlusion	disease	prevention
+7410	0	null	Q18554884	Retinal vein occlusion	disease	prognosis
+7420	0	null	Q18554884	Retinal vein occlusion	disease	complications
+7430	0	null	Q18554884	Retinal vein occlusion	disease	treatment
+7440	1	null	Q988594	Eczema	disease	information
+7450	0	null	Q988594	Eczema	disease	causes
+7460	1	null	Q187255	Rheumatoid arthritis	disease	information
+7470	0	null	Q187255	Rheumatoid arthritis	disease	causes
+7480	0	null	Q187255	Rheumatoid arthritis	disease	impact
+7490	0	null	Q187255	Rheumatoid arthritis	disease	mechanism
+7500	0	null	Q187255	Rheumatoid arthritis	disease	diagnosis
+7510	0	null	Q187255	Rheumatoid arthritis	disease	prognosis
+7520	1	null	Q1343645	Hirschsprung's disease	disease	causes
+7530	0	null	Q1343645	Hirschsprung's disease	disease	risk factors
+7540	0	null	Q1343645	Hirschsprung's disease	disease	tests
+7550	0	null	Q1343645	Hirschsprung's disease	disease	prognosis
+7560	1	null	Q1340722	Thyroid eye disease	disease	information
+7570	0	null	Q1340722	Thyroid eye disease	disease	risk factors
+7580	0	null	Q1340722	Thyroid eye disease	disease	diagnosis
+7590	0	null	Q1340722	Thyroid eye disease	disease	management
+7600	0	null	Q1340722	Thyroid eye disease	disease	complications
+7610	0	null	Q1340722	Thyroid eye disease	disease	prognosis
+7620	1	null	Q282736	Spinal anaesthetic	procedure	information
+7630	0	null	Q282736	Spinal anaesthetic	procedure	surgery
+7640	0	null	Q282736	Spinal anaesthetic	procedure	types
+7650	0	null	Q282736	Spinal anaesthetic	procedure	surgery
+7660	0	null	Q282736	Spinal anaesthetic	procedure	tests
+7670	0	null	Q282736	Spinal anaesthetic	procedure	management
+7680	0	null	Q282736	Spinal anaesthetic	procedure	impact
+7690	0	null	Q282736	Spinal anaesthetic	procedure	complications
+7700	1	null	Q506319	Generic drug	substance	information
+7710	0	null	Q506319	Generic drug	substance	types
+7720	1	null	Q79793	Measles	disease	information
+7730	0	null	Q79793	Measles	disease	symptoms
+7740	0	null	Q79793	Measles	disease	diagnosis
+7750	0	null	Q79793	Measles	disease	complications
+7760	0	null	Q79793	Measles	disease	treatment
+7770	0	null	Q79793	Measles	disease	severity
+7780	0	null	Q79793	Measles	disease	infection
+7790	1	null	Q9368	Liver	organism	information
+7800	0	null	Q970208	Liver failure	disease	prevalence
+7810	0	null	Q970208	Liver failure	disease	diagnosis
+7820	0	null	Q970208	Liver failure	disease	complications
+7830	0	null	Q970208	Liver failure	disease	prognosis
+7840	1	null	Q5445581	Fertility testing	procedure	prognosis
+7850	0	null	Q130819	Contraception	procedure	management
+7860	0	null	Q130819	Contraception	procedure	types
+7870	0	null	Q130819	Contraception	procedure	management
+7880	0	null	Q130819	Contraception	procedure	treatment
+7890	1	null	Q184627	Human papillomavirus	disease	information
+7900	0	null	Q184627	Human papillomavirus	disease	severity
+7910	0	null	Q184627;Q160105	Human papillomavirus and Cervical cancer	disease	complications
+7920	0	null	Q184627	Human papillomavirus	disease	prevention
+7930	0	null	Q900189	Human papillomavirus vaccine	procedure	management
+7940	0	null	Q900189	Human papillomavirus vaccine	procedure	complications
+7950	0	null	Q900189	Human papillomavirus vaccine	procedure	prevalence
+7960	0	null	Q900189	Human papillomavirus vaccine	procedure	prevention
+7970	0	null	Q900189	Human papillomavirus vaccine	procedure	impact
+7980	0	null	Q900189	Human papillomavirus vaccine	procedure	complications
+7990	1	null	Q813680	Pelvic fracture	disease	recovery
+8000	0	null	Q813680	Pelvic fracture	disease	complications
+8010	0	null	Q813680	Pelvic fracture	disease	prevention
+8020	1	null	Q1628262	Intrauterine system	product	information
+8030	0	null	Q1628262	Intrauterine system	product	mechanism
+8040	0	null	Q1628262	Intrauterine system	product	severity
+8050	0	null	Q1628262	Intrauterine system	product	management
+8060	0	null	Q1628262	Intrauterine system	product	complications
+8070	0	null	Q1628262	Intrauterine system	product	management
+8080	0	null	Q1628262	Intrauterine system	product	treatment
+8090	0	null	Q1628262	Intrauterine system	product	impact
+8100	0	null	Q1628262	Intrauterine system	product	management
+8110	1	null	Q189511	Electronic cigarette	product	information
+8120	0	null	Q189511	Electronic cigarette	product	prevalence
+8130	0	null	Q189511	Electronic cigarette	product	impact
+8140	0	null	Q189511	Electronic cigarette	product	complications
+8150	0	null	Q189511	Electronic cigarette	product	medication
+8160	0	null	Q189511	Electronic cigarette	product	management
+8170	1	null	Q9631	Ovary	organism	information
+8180	0	null	Q647630	Premature ovarian insufficiency	disease	information
+8190	0	null	Q647630	Premature ovarian insufficiency	disease	risk factors
+8200	0	null	Q647630	Premature ovarian insufficiency	disease	causes
+8210	0	null	Q647630	Premature ovarian insufficiency	disease	symptoms
+8220	0	null	Q647630	Premature ovarian insufficiency	disease	diagnosis
+8230	0	null	Q647630	Premature ovarian insufficiency	disease	complications
+8240	0	null	Q647630	Premature ovarian insufficiency	disease	treatment
+8250	0	null	Q647630	Premature ovarian insufficiency	disease	prognosis
+8260	1	null	Q202517	Wisdom tooth	organism	severity
+8270	0	null	Q202517	Wisdom tooth	organism	impact
+8280	0	null	Q202517	Wisdom tooth	organism	impact
+8290	0	null	Q202517	Wisdom tooth	organism	types
+8300	0	null	Q202517	Wisdom tooth	organism	complications
+8310	0	null	Q202517	Wisdom tooth	organism	recovery
+8320	1	null	Q246084	Cystitis	disease	information
+8330	0	null	Q246084	Cystitis	disease	diagnosis
+8340	0	null	Q246084	Cystitis	disease	prevention
+8350	0	null	Q246084	Cystitis	disease	prognosis
+8360	1	null	Q152234	Oedema	disease	information
+8370	0	null	Q152234	Oedema	disease	risk factors
+8380	0	null	Q152234	Oedema	disease	causes
+8390	0	null	Q152234	Oedema	disease	treatment
+8400	0	null	Q152234	Oedema	disease	management
+8410	0	null	Q152234	Oedema	disease	prevention
+8420	0	null	Q152234	Oedema	disease	prognosis
+8430	1	null	Q276469	Blister	disease	information
+8440	0	null	Q276469	Foot blister	disease	causes
+8450	0	null	Q276469	Foot blister	disease	surgery
+8460	0	null	Q276469	Foot blister	disease	treatment
+8470	0	null	Q276469	Foot blister	disease	complications
+8480	0	null	Q276469	Foot blister	disease	prevention
+8490	1	null	Q109186	Lump	disease	causes
+8500	0	null	Q109186	Lump	disease	causes
+8510	0	null	Q109186	Lump	disease	severity
+8520	1	null	Q1068134	Pregnancy sickness	disease	information
+8530	0	null	Q391556	Hyperemesis gravidarum	disease	information
+8540	0	null	Q1068134	Pregnancy sickness	disease	causes
+8550	0	null	Q1068134	Pregnancy sickness	disease	complications
+8560	0	null	Q1068134	Pregnancy sickness	disease	tests
+8570	0	null	Q1068134	Pregnancy sickness	disease	management
+8580	0	null	Q1068134	Pregnancy sickness	disease	medication
+8590	0	null	Q1068134	Pregnancy sickness	disease	treatment
+8600	1	null	Q48385308	Bed bug	paracite	information
+8610	0	null	Q48385308	Bed bug	paracite	prevalence
+8620	0	null	Q48385308	Bed bug	paracite	prevalence
+8630	0	null	Q48385308	Bed bug	paracite	diagnosis
+8640	0	null	Q48385308	Bed bug	paracite	causes
+8650	0	null	Q48385308	Bed bug	paracite	treatment
+8660	0	null	Q48385308	Bed bug	paracite	treatment
+8670	1	null	Q275157	Blood glucose level	substance	causes
+8680	0	null	Q273924	Glycaemic index	procedure	information
+8690	0	null	Q2572045	Type 2 Diabetes diet	procedure	mechanism
+8700	0	null	Q718113	Weight loss	procedure	impact
+8710	0	null	Q2572045	Diabetic food	substance	management
+8720	1	null	Q1434575	Testicular torsion	disease	information
+8730	0	null	Q1434575	Testicular torsion	disease	risk factors
+8740	1	null	Q1908194	Vulvar cancer	disease	information
+8750	0	null	Q1908194	Vulvar cancer	disease	causes
+8760	0	null	Q1908194	Vulvar cancer	disease	diagnosis
+8770	0	null	Q1908194	Vulvar cancer	disease	treatment
+8780	0	null	Q1908194	Vulvar cancer	disease	prognosis
+8790	1	null	Q16949299;Q7170514;Q5374363	Attendance Allowance, Personal Independence Payment and Employment and Support Allowance	regulation	information
+8800	0	null	Q57950921	Terminally ill person	disease	diagnosis
+8810	0	null	Q57950921	Terminally ill person	disease	management
+8820	0	null	Q57950921	Terminally ill person	disease	management
+8830	0	null	Q57950921	Terminally ill person	disease	management
+8840	1	null	Q4641039	5:2 diet	procedure	information
+8850	0	null	Q4641039	5:2 diet	procedure	impact
+8860	0	null	Q4641039	5:2 diet	procedure	mechanism
+8870	0	null	Q4641039	5:2 diet	procedure	complications
+8880	0	null	Q4641039	5:2 diet	procedure	management
+8890	0	null	Q4641039	5:2 diet	procedure	management
+8900	1	null	Q2717322	Natural family planning	procedure	information
+8910	0	null	Q964401	Fertility	procedure	diagnosis
+8920	0	null	Q187082	Ovulation	procedure	diagnosis
+8930	0	null	Q8408915	Fertility awareness	procedure	diagnosis
+8940	1	null	Q201180	Varicose veins	disease	information
+8950	0	null	Q201180	Varicose veins	disease	causes
+8960	0	null	Q201180	Varicose veins	disease	risk factors
+8970	0	null	Q201180	Varicose veins	disease	symptoms
+8980	0	null	Q201180	Varicose veins	disease	complications
+8990	0	null	Q201180	Varicose veins	disease	severity
+9000	0	null	Q201180	Varicose veins	disease	tests
+9010	0	null	Q201180	Varicose veins	disease	treatment
+9020	1	null	Q5445	Anemia	disease	causes
+9030	1	null	Q2290446	Idiopathic pulmonary fibrosis	disease	information
+9040	0	null	Q2290446	Idiopathic pulmonary fibrosis	disease	prevalence
+9050	0	null	Q2290446	Idiopathic pulmonary fibrosis	disease	symptoms
+9060	0	null	Q2290446	Idiopathic pulmonary fibrosis	disease	diagnosis
+9070	0	null	Q2290446	Idiopathic pulmonary fibrosis	disease	treatment
+9080	0	null	Q2290446	Idiopathic pulmonary fibrosis	disease	prognosis
+9090	1	null	Q16995931	Lasting power of attorney	disease	information
+9100	0	null	Q2045105	End-of-life care	procedure	information
+9110	0	null	Q2045105	End-of-life care	procedure	management
+9120	0	null	Q2045105	End-of-life care	procedure	management
+9130	1	null	Q3797702	Stress incontinence	disease	prevalence
+9140	0	null	Q3797702	Stress incontinence	disease	causes
+9150	0	null	Q3797702	Stress incontinence	disease	treatment
+9160	0	null	Q3797702	Stress incontinence	disease	prevention
+9170	1	null	Q689985	Lipoma	disease	information
+9180	0	null	Q689985	Lipoma	disease	risk factors
+9190	0	null	Q689985	Lipoma	disease	prevalence
+9200	0	null	Q689985	Lipoma	disease	symptoms
+9210	0	null	Q689985	Lipoma	disease	tests
+9220	0	null	Q689985	Lipoma	disease	treatment
+9230	1	null	Q178190	Obsessive-compulsive disorder	disease	information
+9240	0	null	Q178190	Obsessive-compulsive disorder	disease	symptoms
+9250	0	null	Q178190	Obsessive-compulsive disorder	disease	diagnosis
+9260	0	null	Q178190	Obsessive-compulsive disorder	disease	prevalence
+9270	0	null	Q178190	Obsessive-compulsive disorder	disease	causes
+9280	0	null	Q178190	Obsessive-compulsive disorder	disease	treatment
+9290	0	null	Q178190	Obsessive-compulsive disorder	disease	management
+9300	1	null	Q1144367	Ganglion cyst	disease	information
+9310	0	null	Q1144367	Ganglion cyst	disease	symptoms
+9320	0	null	Q1144367	Ganglion cyst	disease	treatment
+9330	1	null	Q9371	Spleen	organism	information
+9340	0	null	Q9371	Spleen	organism	risk factors
+9350	0	null	Q1129121	Splenomegaly	disease	prevention
+9360	0	null	Q1129121	Splenomegaly	disease	prevention
+9370	1	null	Q1327273	Entropion	disease	symptoms
+9380	0	null	Q1327273	Entropion	disease	surgery
+9390	1	null	Q12206	Diabetes mellitus	disease	information
+9400	0	null	Q12206	Diabetes mellitus	disease	symptoms
+9410	0	null	Q12206	Diabetes mellitus	disease	diagnosis
+9420	0	null	Q12206	Diabetes mellitus	disease	treatment
+9430	0	null	Q12206	Diabetes mellitus	disease	complications
+9440	0	null	Q12206	Diabetes mellitus	disease	prognosis
+9450	0	null	Q12206	Diabetes mellitus	disease	prevention
+9460	1	null	Q1494682;Q1494682	Heavy period and Menorrhagia	disease	severity
+9470	0	null	Q1494682	Heavy period	disease	causes
+9480	0	null	Q1494682	Heavy period	disease	tests
+9490	0	null	Q1494682	Heavy period	disease	treatment
+9500	1	null	Q1752891	Polymyalgia rheumatica	disease	information
+9510	0	null	Q1752891	Polymyalgia rheumatica	disease	symptoms
+9520	0	null	Q1752891	Polymyalgia rheumatica	disease	tests
+9530	0	null	Q1752891	Polymyalgia rheumatica	disease	treatment
+9540	0	null	Q1752891	Polymyalgia rheumatica	disease	complications
+9550	1	null	Q693442	Subarachnoid hemorrhage	disease	severity
+9560	0	null	Q693442	Subarachnoid hemorrhage	disease	risk factors
+9570	0	null	Q693442	Subarachnoid hemorrhage	disease	prevalence
+9580	0	null	Q693442	Subarachnoid hemorrhage	disease	mechanism
+9590	0	null	Q693442	Subarachnoid hemorrhage	disease	symptoms
+9600	0	null	Q693442	Subarachnoid hemorrhage	disease	symptoms
+9610	0	null	Q693442	Subarachnoid hemorrhage	disease	prognosis
+9620	0	null	Q693442	Subarachnoid hemorrhage	disease	prognosis
+9630	0	null	Q693442	Subarachnoid hemorrhage	disease	prevention
+9640	1	null	Q189389	Aneurysm	disease	diagnosis
+9650	1	null	Q4665122	Abdominal mass	disease	information
+9660	0	null	Q4665122	Abdominal mass	disease	symptoms
+9670	0	null	Q4665122	Abdominal mass	disease	causes
+9680	0	null	Q4665122	Abdominal mass	disease	tests
+9690	0	null	Q4665122	Abdominal mass	disease	treatment
+9700	1	null	Q182442	Reshaping chins and cheeks	procedure	treatment
+9710	0	null	Q182442	Reshaping chins and cheeks	procedure	impact
+9720	0	null	Q182442	Reshaping chins and cheeks	procedure	management
+9730	0	null	Q182442	Reshaping chins and cheeks	procedure	complications
+9740	0	null	Q182442	Reshaping chins and cheeks	procedure	management
+9750	1	null	Q9368	Liver	organism	information
+9760	0	null	Q623031	Liver cancer	disease	information
+9770	0	null	Q623031	Liver cancer	disease	causes
+9780	0	null	Q623031	Liver cancer	disease	symptoms
+9790	0	null	Q623031	Liver cancer	disease	diagnosis
+9800	0	null	Q623031	Liver cancer	disease	treatment
+9810	0	null	Q623031	Liver cancer	disease	prognosis
+9820	1	null	Q442615	Slipped capital femoral epiphysis	disease	information
+9830	0	null	Q442615	Slipped capital femoral epiphysis	disease	causes
+9840	0	null	Q442615	Slipped capital femoral epiphysis	disease	prevalence
+9850	0	null	Q442615	Slipped capital femoral epiphysis	disease	risk factors
+9860	0	null	Q442615	Slipped capital femoral epiphysis	disease	symptoms
+9870	0	null	Q442615	Slipped capital femoral epiphysis	disease	diagnosis
+9880	0	null	Q442615	Slipped capital femoral epiphysis	disease	treatment
+9890	0	null	Q442615	Slipped capital femoral epiphysis	disease	complications
+9900	0	null	Q442615	Slipped capital femoral epiphysis	disease	prognosis
+9910	0	null	Q442615	Slipped capital femoral epiphysis	disease	prevention
+9920	1	null	Q1869874	Insomnia	disease	information
+9930	0	null	Q1869874	Insomnia	disease	severity
+9940	0	null	Q1869874	Insomnia	disease	treatment
+9950	0	null	Q1869874	Insomnia	disease	medication
+9960	1	null	Q938793	Damaged articular cartilage	disease	symptoms
+9970	0	null	Q1134609	Meniscal tear	disease	mechanism
+9980	0	null	Q938793	Damaged articular cartilage	disease	mechanism
+9990	0	null	Q1134609	Meniscal tear	disease	diagnosis
+10000	0	null	Q938793	Damaged articular cartilage	disease	diagnosis
+10010	0	null	Q938793	Damaged articular cartilage	disease	treatment
+10020	0	null	Q1134609	Meniscal tear	disease	medication
+10030	0	null	Q1134609	Meniscal tear	disease	severity
+10040	0	null	Q1134609	Meniscal tear	disease	treatment
+10050	0	null	Q4800939	Articular cartilage injury	disease	severity
+10060	0	null	Q4800939	Articular cartilage injury	disease	treatment
+10070	0	null	Q1134609	Meniscal tear	disease	surgery
+10080	0	null	Q4800939	Articular cartilage injury	disease	surgery
+10090	1	null	Q708232	Arthroscopy	procedure	information
+10100	1	null	Q173235	Painkillers	substance	information
+10110	0	null	Q173235	Painkillers	substance	mechanism
+10120	0	null	Q173235	Painkillers	substance	types
+10130	0	null	Q173235	Painkillers	substance	medication
+10140	0	null	Q173235	Painkillers	substance	treatment
+10150	0	null	Q173235	Painkillers	substance	complications
+10160	0	null	Q173235	Painkillers	substance	management
+10170	0	null	Q173235	Painkillers	substance	management
+10180	1	null	Q1350326	Frostbite	disease	information
+10190	0	null	Q1350326	Frostbite	disease	causes
+10200	0	null	Q1350326	Frostbite	disease	prevalence
+10210	0	null	Q1350326	Frostbite	disease	risk factors
+10220	0	null	Q1350326	Frostbite	disease	symptoms
+10230	0	null	Q1350326	Frostbite	disease	diagnosis
+10240	0	null	Q1350326	Frostbite	disease	treatment
+10250	0	null	Q1350326	Frostbite	disease	management
+10260	0	null	Q1350326	Frostbite	disease	prevention
+10270	1	null	Q697117	Slipped disc	disease	information
+10280	0	null	Q697117	Slipped disc	disease	risk factors
+10290	0	null	Q697117	Slipped disc	disease	causes
+10300	0	null	Q697117	Slipped disc	disease	mechanism
+10310	0	null	Q697117	Slipped disc	disease	tests
+10320	0	null	Q697117	Slipped disc	disease	treatment
+10330	0	null	Q697117	Slipped disc	disease	prevention
+10340	1	null	Q120395	Dyspareunia	disease	information
+10350	1	null	Q180266	Scarlet fever	disease	symptoms
+10360	0	null	Q180266	Scarlet fever	disease	causes
+10370	0	null	Q180266	Scarlet fever	disease	diagnosis
+10380	0	null	Q180266	Scarlet fever	disease	treatment
+10390	0	null	Q180266	Scarlet fever	disease	complications
+10400	0	null	Q180266	Scarlet fever	disease	prognosis
+10410	0	null	Q180266	Scarlet fever	disease	infection
+10420	1	null	Q389735	Cardiovascular disease	disease	risk factors
+10430	0	null	Q389735	Cardiovascular disease	disease	tests
+10440	0	null	Q389735	Cardiovascular disease	disease	diagnosis
+10450	0	null	Q389735	Cardiovascular disease	disease	treatment
+10460	0	null	Q389735	Cardiovascular disease	disease	management
+10470	1	null	Q101004	Aorta	organism	information
+10480	0	null	Q594660	Aortic dissection	disease	information
+10490	0	null	Q594660	Aortic dissection	disease	prevalence
+10500	0	null	Q594660	Aortic dissection	disease	causes
+10510	0	null	Q594660	Aortic dissection	disease	symptoms
+10520	0	null	Q594660	Aortic dissection	disease	diagnosis
+10530	0	null	Q594660	Aortic dissection	disease	treatment
+10540	0	null	Q594660	Aortic dissection	disease	complications
+10550	0	null	Q594660	Aortic dissection	disease	prognosis
+10560	0	null	Q594660	Aortic dissection	disease	prevention
+10570	1	null	Q133823	Migraine	disease	information
+10580	0	null	Q12859056	Menstrual migraine	disease	complications
+10590	0	null	Q12859056	Menstrual migraine	disease	diagnosis
+10600	0	null	Q133823	Migraine	disease	treatment
+10610	0	null	Q12859056	Menstrual migraine	disease	prevention
+10620	1	null	Q5075435	Alopecia areata	disease	information
+10630	0	null	Q5075435	Alopecia areata	disease	risk factors
+10640	0	null	Q5075435	Alopecia areata	disease	symptoms
+10650	0	null	Q5075435	Alopecia areata	disease	causes
+10660	0	null	Q5075435	Alopecia areata	disease	tests
+10670	0	null	Q5075435	Alopecia areata	disease	prognosis
+10680	0	null	Q5075435	Alopecia areata	disease	treatment
+10690	1	null	Q128581	Breast cancer	disease	management
+10700	1	null	Q653383	Mallet finger	disease	information
+10710	0	null	Q653383	Mallet finger	disease	causes
+10720	0	null	Q653383	Mallet finger	disease	symptoms
+10730	0	null	Q653383	Mallet finger	disease	treatment
+10740	1	null	Q12199	HIV / AIDS	disease	information
+10750	0	null	Q12199	HIV / AIDS	disease	infection
+10760	0	null	Q12199	HIV / AIDS	disease	prevalence
+10770	0	null	Q12199	HIV / AIDS	disease	causes
+10780	0	null	Q12199	HIV / AIDS	disease	symptoms
+10790	0	null	Q12199	HIV / AIDS	disease	tests
+10800	0	null	Q12199	HIV / AIDS	disease	complications
+10810	0	null	Q12199	HIV / AIDS	disease	treatment
+10820	0	null	Q12199	HIV / AIDS	disease	medication
+10830	0	null	Q12199	HIV / AIDS	disease	management
+10840	0	null	Q12199	HIV / AIDS	disease	prevention
+10850	0	null	Q12199	HIV / AIDS	disease	prognosis
+10860	1	null	Q9618	Pancreas	organism	information
+10870	0	null	Q1527888	Pancreatitis	disease	information
+10880	0	null	Q854573	Acute pancreatitis	disease	mechanism
+10890	0	null	Q854573	Acute pancreatitis	disease	management
+10900	0	null	Q854573	Acute pancreatitis	disease	prognosis
+10910	0	null	Q854573	Acute pancreatitis	disease	recovery
+10920	1	null	Q3525982	Superficial thrombophlebitis	disease	information
+10930	0	null	Q3525982	Superficial thrombophlebitis	disease	causes
+10940	0	null	Q3525982	Superficial thrombophlebitis	disease	symptoms
+10950	0	null	Q3525982	Superficial thrombophlebitis	disease	tests
+10960	0	null	Q3525982	Superficial thrombophlebitis	disease	treatment
+10970	0	null	Q3525982	Superficial thrombophlebitis	disease	complications
+10980	1	null	Q840387	Colonoscopy	procedure	information
+10990	0	null	Q840387	Colonoscopy	procedure	risk factors
+11000	0	null	Q840387	Colonoscopy	procedure	mechanism
+11010	0	null	Q840387	Colonoscopy	procedure	management
+11020	0	null	Q840387	Colonoscopy	procedure	prognosis
+11030	0	null	Q840387	Colonoscopy	procedure	complications
+11040	1	null	Q18968110	Duodenal ulcer	disease	information
+11050	0	null	Q18968110	Duodenal ulcer	disease	causes
+11060	0	null	Q18968110	Duodenal ulcer	disease	symptoms
+11070	0	null	Q18968110	Duodenal ulcer	disease	diagnosis
+11080	0	null	Q18968110	Duodenal ulcer	disease	treatment
