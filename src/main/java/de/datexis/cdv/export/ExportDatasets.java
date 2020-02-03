@@ -7,6 +7,7 @@ import de.datexis.cdv.model.EntityAnnotation;
 import de.datexis.cdv.model.EntityAspectAnnotation;
 import de.datexis.cdv.preprocess.AspectPreprocessor;
 import de.datexis.cdv.reader.MatchZooReader;
+import de.datexis.cdv.reader.MedQuADReader;
 import de.datexis.cdv.reader.WikiSectionQAReader;
 import de.datexis.cdv.retrieval.EntityAspectQueryAnnotation;
 import de.datexis.cdv.train.TrainCDVAnnotator;
@@ -27,8 +28,10 @@ import org.slf4j.LoggerFactory;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 
@@ -60,12 +63,14 @@ public class ExportDatasets {
     
     protected String inputFile = null;
     protected String outputDir = null;
+    protected String sourceFile = null;
     protected boolean train = false;
     
     @Override
     public void setParams(CommandLine parse) {
       inputFile = parse.getOptionValue("i");
       outputDir = parse.getOptionValue("o");
+      sourceFile = parse.getOptionValue("s");
       train = parse.hasOption("t");
     }
     
@@ -74,6 +79,7 @@ public class ExportDatasets {
       Options op = new Options();
       op.addRequiredOption("i", "input", true, "path to the dataset (json)");
       op.addRequiredOption("o", "output", true, "path to the output folder");
+      op.addOption("s", "source", true, "path to the original source file");
       op.addOption("t", "train", false, "use if the dataset is a training file");
       return op;
     }
@@ -97,12 +103,31 @@ public class ExportDatasets {
     } else {
       log.info("reading dataset...");
       Dataset corpus = ObjectSerializer.readFromJSON(input, Dataset.class);
+      if(params.sourceFile != null) {
+        log.info("converting original source...");
+        filename = filename.replace("_annotations", "");
+        if(corpus.getName().equals("MedQuAD")) readMedQuADsource(corpus, params.sourceFile);
+        else throw new IllegalArgumentException("Not prepared to convert sources of this dataset.");
+        ObjectSerializer.writeJSON(corpus, output.resolve(filename + ".json"));
+      }
       log.info("exporting TSV evaluation data...");
       MatchZooReader.addCandidateSamples(corpus, PassageIndex.NUM_CANDIDATES); // adds 64 candidates to be comparable with MatchZoo models
       exportTestPassageArticles(corpus, output, filename, false);
       log.info("exporting MatchZoo evaluation data...");
       exportMatchZooQueries(corpus, output, filename);
       log.info("done.");
+    }
+  }
+  
+  protected static void readMedQuADsource(Dataset corpus, String sourcePath) throws IOException {
+    Resource source = Resource.fromDirectory(sourcePath);
+    Dataset src = new MedQuADReader()
+            .withKeepEmptyDocs(false)
+            .readDatasetFromFiles(Files.readAllLines(source.getPath()));
+    for(Document doc : corpus.getDocuments()) {
+      Optional<Document> s = src.getDocument(doc.getId());
+      if(s.isPresent()) doc.setText(s.get().getText());
+      else log.error("Could not find document source for '{}'", doc.getId());
     }
   }
   
