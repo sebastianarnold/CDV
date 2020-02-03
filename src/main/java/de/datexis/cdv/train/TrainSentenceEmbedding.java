@@ -3,6 +3,7 @@ package de.datexis.cdv.train;
 import de.datexis.annotator.Annotator;
 import de.datexis.cdv.encoder.AspectEncoder;
 import de.datexis.cdv.encoder.EntityEncoder;
+import de.datexis.cdv.eval.EvaluateCDVRetrieval;
 import de.datexis.cdv.index.AspectIndex;
 import de.datexis.cdv.index.EntityIndex;
 import de.datexis.cdv.index.QueryIndex;
@@ -14,6 +15,7 @@ import de.datexis.encoder.impl.BloomEncoder;
 import de.datexis.encoder.impl.FastTextEncoder;
 import de.datexis.retrieval.encoder.LSTMSentenceAnnotator;
 import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.deeplearning4j.api.storage.StatsStorage;
@@ -47,17 +49,27 @@ public class TrainSentenceEmbedding {
   public static void main(String[] args) throws IOException, ParseException {
     final TrainingParams params = new TrainingParams();
     final CommandLineParser parser = new CommandLineParser(params);
-    if(args.length > 0) parser.parse(args);
-    new TrainSentenceEmbedding().trainSentenceEmbedding(params);
+    try {
+      parser.parse(args);
+      new TrainSentenceEmbedding().trainSentenceEmbedding(params);
+      System.exit(0);
+    } catch(ParseException e) {
+      HelpFormatter formatter = new HelpFormatter();
+      formatter.printHelp("train-embedding", "TeXoo: train entity/aspect embeddings", params.setUpCliOptions(), "", true);
+      System.exit(1);
+    } catch(Exception e) {
+      e.printStackTrace();
+      System.exit(1);
+    }
   }
   
   protected static class TrainingParams implements CommandLineParser.Options {
   
-    protected String inputPath = "/mnt/datasets/Heatmap/wd_disease_entity_context_shuffled_clean.tsv";
-    protected String datasetName = "en_disease";
-    protected String wordEmbedding = "/mnt/models/FastText/en_disease_skipgram.bin";
-    protected String outputPath = "/mnt/results/";
-    protected String modelName = "+ft-lstm-context+128+5ep";
+    protected String inputPath = null;
+    protected String datasetName = "wd_disease";
+    protected String wordEmbedding = null;
+    protected String outputPath = "models";
+    protected String modelName = null;
     protected boolean trainingUI = true;
     protected boolean tokenizedInput = true;
     protected boolean entityModel = true;
@@ -78,14 +90,14 @@ public class TrainSentenceEmbedding {
     @Override
     public Options setUpCliOptions() {
       Options op = new Options();
-      op.addRequiredOption("i", "input path", true, "path to the WikiSection training dataset");
-      op.addRequiredOption("d", "dataset name", true, "name of the data set, e.g. en_disease");
+      op.addRequiredOption("i", "input path", true, "path to the training dataset");
+      op.addRequiredOption("d", "dataset name", true, "name of the data set, e.g. wd_disease");
       op.addRequiredOption("m", "model name", true, "model name");
       op.addOption("w", "word embedding path", true, "path to a pretrained word embedding");
       op.addOption("o", "output path", true, "path to create the output folder in");
       op.addOption("t", "tokenized", false, "use if input is tokenized");
       op.addOption("u", "ui", false, "enable training UI");
-      op.addOption("a", "aspect", false, "train aspect model");
+      op.addOption("a", "aspect", false, "train aspect model (otherwise entity model is used)");
       return op;
     }
   

@@ -22,6 +22,7 @@ import de.datexis.preprocess.IdentityPreprocessor;
 import de.datexis.retrieval.encoder.LSTMSentenceAnnotator;
 import de.datexis.sector.encoder.ParVecSentenceEncoder;
 import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.nd4j.linalg.activations.Activation;
@@ -57,20 +58,30 @@ public class TrainCDVAnnotator {
   public static void main(String[] args) throws IOException, ParseException {
     final TrainingParams params = new TrainingParams();
     final CommandLineParser parser = new CommandLineParser(params);
-    if(args.length > 0) parser.parse(args);
-    new TrainCDVAnnotator().trainCompleteCDVModel(params);
+    try {
+      parser.parse(args);
+      new TrainCDVAnnotator().trainCompleteCDVModel(params);
+      System.exit(0);
+    } catch(ParseException e) {
+      HelpFormatter formatter = new HelpFormatter();
+      formatter.printHelp("train-cdv", "TeXoo: train contextualized discourse vectors (CDV)", params.setUpCliOptions(), "", true);
+      System.exit(1);
+    } catch(Exception e) {
+      e.printStackTrace();
+      System.exit(1);
+    }
   }
   
   protected static class TrainingParams implements CommandLineParser.Options {
 
-    protected String inputPath = "/mnt/datasets/Heatmap/wd_disease_train_entity_aspect_docs+notest.json";
+    protected String inputPath = null;
     protected String datasetName = "wd_disease";
-    protected String inputEmbedding = "/mnt/models/FastText/en_disease_skipgram.bin"; //"BERT-base"; // re-use target "/home/sarnold/TeXoo/Evaluation/TACL2018/ParVecAnnotator_class_en_disease_PV+bow+256_20180801/pv.zip";
-    protected String entityEmbedding = "/home/sarnold/Projekte/CDV/Models/ENC-E@wd_disease+fasttext-lstm+128_20190625";
-    protected String aspectEmbedding = "/home/sarnold/Projekte/CDV/Models/ENC-A@wd_disease+ft-heading/";
-    protected String searchPath = "/home/sarnold/Library/Models/FastText";
-    protected String outputPath = "/mnt/results/";
-    protected String modelName = "+ft-sent+cui2vec+development";
+    protected String inputEmbedding = null;
+    protected String entityEmbedding = null;
+    protected String aspectEmbedding = null;
+    protected String searchPath = "models/common";
+    protected String outputPath = "models";
+    protected String modelName = null;
     protected boolean trainingUI = true;
     protected boolean entityModel = true;
     protected boolean aspectModel = true;
@@ -96,14 +107,14 @@ public class TrainCDVAnnotator {
     @Override
     public Options setUpCliOptions() {
       Options op = new Options();
-      op.addRequiredOption("i", "input path", true, "path to the WikiSection training dataset");
-      op.addRequiredOption("d", "dataset name", true, "name of the data set, e.g. en_disease");
-      op.addRequiredOption("m", "model name", true, "model name");
-      op.addOption("w", "input word embedding path", true, "path to a pretrained embedding");
-      op.addOption("e", "entity embedding", true, "path to the entity embedding");
-      op.addOption("a", "aspect embedding", true, "path to the aspect embedding");
-      op.addOption("o", "output path", true, "path to create the output folder in");
-      op.addOption("s", "search path", true, "search path for pre-trained word embeddings");
+      op.addRequiredOption("i", "dataset", true, "path to the WikiSection training dataset");
+      op.addRequiredOption("d", "datasetname", true, "name of the data set, e.g. en_disease");
+      op.addRequiredOption("m", "modelname", true, "model name");
+      op.addOption("w", "wordemb", true, "path to a pretrained embedding");
+      op.addOption("e", "entity", true, "path to the entity embedding");
+      op.addOption("a", "aspect", true, "path to the aspect embedding");
+      op.addOption("o", "output", true, "path to create the output folder in");
+      op.addOption("s", "search", true, "search path for pre-trained word embeddings");
       op.addOption("b", "balancing", false, "use class balancing during training");
       op.addOption("u", "ui", false, "enable training UI");
       return op;
