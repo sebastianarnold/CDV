@@ -21,7 +21,6 @@ import org.deeplearning4j.earlystopping.EarlyStoppingConfiguration;
 import org.deeplearning4j.earlystopping.EarlyStoppingResult;
 import org.deeplearning4j.earlystopping.listener.EarlyStoppingListener;
 import org.deeplearning4j.earlystopping.trainer.EarlyStoppingGraphTrainer;
-import org.deeplearning4j.nn.api.Layer;
 import org.deeplearning4j.nn.conf.ComputationGraphConfiguration;
 import org.deeplearning4j.nn.conf.preprocessor.FeedForwardToRnnPreProcessor;
 import org.deeplearning4j.nn.graph.ComputationGraph;
@@ -202,7 +201,7 @@ public class CDVTagger extends Tagger implements IEncoder {
     }
   }
   
-  protected void trainModel(Dataset dataset, int numEpochs) {
+  protected synchronized void trainModel(Dataset dataset, int numEpochs) {
     DocumentSentenceIterator it = createIterator(Stage.TRAIN, dataset.getDocuments());
     int batches = numExamples / batchSize;
     timer.start();
@@ -305,12 +304,12 @@ public class CDVTagger extends Tagger implements IEncoder {
   
   protected void attachCDVSentenceVectors(DocumentSentenceIterator.DocumentBatch batch) {
     // predict outputs
-    // TODO: disable dropout!
-    for(Layer l : getNN().getLayers()) {
+    INDArray[] weights;
+    synchronized(getNN()) {
+      getNN().setLabels(batch.dataset.getLabels()); // setting empty labels because batchsize is calculated from labels array
+      weights = getNN().output(false, batch.dataset.getFeatures(), batch.dataset.getFeaturesMaskArrays(), batch.dataset.getLabelsMaskArrays());
     }
-    getNN().setLabels(batch.dataset.getLabels()); // setting empty labels because batchsize is calculated from labels array
-    INDArray[] weights = getNN().output(false, batch.dataset.getFeatures(), batch.dataset.getFeaturesMaskArrays(), batch.dataset.getLabelsMaskArrays());
-    INDArray entityTarget = null, aspectTarget = null, embedding = null;
+      INDArray entityTarget = null, aspectTarget = null, embedding = null;
     if(getEntityEncoder() != null && getAspectEncoder() != null) {
       // Multi-Task model
       entityTarget = weights[0];
@@ -367,8 +366,11 @@ public class CDVTagger extends Tagger implements IEncoder {
   
   protected void attachCDVDocumentMatrix(DocumentSentenceIterator.DocumentBatch batch) {
     // predict outputs
-    getNN().setLabels(batch.dataset.getLabels()); // setting empty labels because batchsize is calculated from labels array
-    INDArray[] weights = getNN().output(false, batch.dataset.getFeatures(), batch.dataset.getFeaturesMaskArrays(), batch.dataset.getLabelsMaskArrays());
+    INDArray[] weights;
+    synchronized(getNN()) {
+      getNN().setLabels(batch.dataset.getLabels()); // setting empty labels because batchsize is calculated from labels array
+      weights = getNN().output(false, batch.dataset.getFeatures(), batch.dataset.getFeaturesMaskArrays(), batch.dataset.getLabelsMaskArrays());
+    }
     INDArray entityTarget = null, aspectTarget = null, embedding = null;
     if(getEntityEncoder() != null && getAspectEncoder() != null) {
       // Multi-Task model
