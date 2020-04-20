@@ -1,8 +1,8 @@
-# CDV – Contextualized Discourse Vectors
+# CDV – Contextual Discourse Vectors
 
 Code and data for:
 
-**Learning Contextualized Document Representations for Healthcare Answer Retrieval.** Sebastian Arnold, Betty van Aken, Paul Grundmann, Felix A. Gers and Alexander Löser. The Web Conference 2020.
+**Learning Contextualized Document Representations for Healthcare Answer Retrieval.** Sebastian Arnold, Betty van Aken, Paul Grundmann, Felix A. Gers and Alexander Löser. The Web Conference 2020 (WWW'20). ACM, 2020: 1332–1343.
 
 This code is based on the [TeXoo Framework](https://github.com/sebastianarnold/texoo) and [Eclipse Deeplearning4j](https://github.com/eclipse/deeplearning4j).
 
@@ -67,6 +67,14 @@ Please contact sarnold(at)beuth-hochschule(dot)de to get access to the pre-train
   title = {Learning {{Contextualized Document Representations}} for {{Healthcare Answer Retrieval}}},
   booktitle = {Proceedings of The Web Conference 2020 (WWW '20)},
   year = {2020},
-  doi = {10.1145/3366423.3380208}
+  isbn = {9781450370233},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3366423.3380208},
+  doi = {10.1145/3366423.3380208},
+  booktitle = {Proceedings of The Web Conference 2020},
+  pages = {1332–1343},
+  location = {Taipei, Taiwan},
+  series = {WWW ’20}
 }
 ```
