@@ -2,7 +2,7 @@
 
 Code and data for:
 
-**Learning Contextualized Document Representations for Healthcare Answer Retrieval.** Sebastian Arnold, Betty van Aken, Paul Grundmann, Felix A. Gers and Alexander Löser. The Web Conference 2020 (WWW'20). ACM, 2020: 1332–1343.
+**[Learning Contextualized Document Representations for Healthcare Answer Retrieval](https://dl.acm.org/doi/abs/10.1145/3366423.3380208).** Sebastian Arnold, Betty van Aken, Paul Grundmann, Felix A. Gers and Alexander Löser. The Web Conference 2020 (WWW'20). ACM, 2020: 1332–1343.
 
 This code is based on the [TeXoo Framework](https://github.com/sebastianarnold/texoo) and [Eclipse Deeplearning4j](https://github.com/eclipse/deeplearning4j).
 
